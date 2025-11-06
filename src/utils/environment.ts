@@ -11,7 +11,7 @@ export const getEnvironment = () => {
     const hostname = window.location.hostname;
     
     // Production domain
-    if (hostname === 'reposcan-one.vercel.app') {
+    if (hostname === 'repoagent-six.vercel.app') {
       return 'production';
     }
     
@@ -40,14 +40,14 @@ export const getRedirectUri = () => {
   // Fallback to dynamic detection only if env var is not set
   if (typeof window === 'undefined') {
     // Server-side rendering fallback
-    return 'https://reposcan-one.vercel.app/auth/callback';
+    return 'https://repoagent-six.vercel.app/auth/callback';
   }
   
   const hostname = window.location.hostname;
   
   // Exact production domain match
-  if (hostname === 'reposcan-one.vercel.app') {
-    return 'https://reposcan-one.vercel.app/auth/callback';
+  if (hostname === 'repoagent-six.vercel.app') {
+    return 'https://repoagent-six.vercel.app/auth/callback';
   }
   
   // Local development (localhost with any port)
@@ -57,14 +57,14 @@ export const getRedirectUri = () => {
   
   // For any other domain, default to production URL
   // This prevents issues with unconfigured domains
-  return 'https://reposcan-one.vercel.app/auth/callback';
+  return 'https://repoagent-six.vercel.app/auth/callback';
 };
 
 export const getBaseUrl = () => {
   const env = getEnvironment();
   
   if (env === 'production') {
-    return 'https://reposcan-one.vercel.app';
+    return 'https://repoagent-six.vercel.app';
   }
   
   // Development
