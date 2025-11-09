@@ -5,7 +5,7 @@
  * Tests if the production deployment is working correctly
  */
 
-const PRODUCTION_URL = 'https://reposcan-one.vercel.app';
+const PRODUCTION_URL = 'https://open-repo-lens-backup.vercel.app';
 
 async function testApiRoute() {
   console.log('🧪 Testing API routes...\n');

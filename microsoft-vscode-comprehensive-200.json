@@ -1,0 +1,2627 @@
+[
+  {
+    "issueNumber": 276323,
+    "title": "Auto model selector should not select disabled models",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276323",
+    "createdAt": "2025-11-08T23:11:48Z",
+    "updatedAt": "2025-11-08T23:12:40Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276322,
+    "title": "Disabled models should not be selected in auto mode",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276322",
+    "createdAt": "2025-11-08T23:05:01Z",
+    "updatedAt": "2025-11-08T23:09:25Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "chat-billing"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276320,
+    "title": "Gpt-5 Sorry, no response was returned",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276320",
+    "createdAt": "2025-11-08T22:58:41Z",
+    "updatedAt": "2025-11-08T23:11:13Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276319,
+    "title": "Github",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276319",
+    "createdAt": "2025-11-08T22:35:09Z",
+    "updatedAt": "2025-11-08T22:36:29Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276318,
+    "title": "Unable to view HPP files in Merge Editor",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276318",
+    "createdAt": "2025-11-08T22:12:09Z",
+    "updatedAt": "2025-11-08T23:12:38Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276317,
+    "title": "Allow to stop including the current selection in the context",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276317",
+    "createdAt": "2025-11-08T22:02:54Z",
+    "updatedAt": "2025-11-08T22:03:33Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276316,
+    "title": "nada",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276316",
+    "createdAt": "2025-11-08T21:43:08Z",
+    "updatedAt": "2025-11-08T21:44:30Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276315,
+    "title": "Bug report: unreproduced issue in VS Code",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276315",
+    "createdAt": "2025-11-08T21:16:47Z",
+    "updatedAt": "2025-11-08T22:11:44Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276314,
+    "title": "agresive as hell get out of my face",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276314",
+    "createdAt": "2025-11-08T21:09:07Z",
+    "updatedAt": "2025-11-08T21:10:28Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276313,
+    "title": "Poor Agent Perfoamance ",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276313",
+    "createdAt": "2025-11-08T21:08:11Z",
+    "updatedAt": "2025-11-08T21:09:42Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276312,
+    "title": "Repeated destructive Azure Commands",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276312",
+    "createdAt": "2025-11-08T20:21:27Z",
+    "updatedAt": "2025-11-08T21:11:24Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276311,
+    "title": "enabled gbt5 error",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276311",
+    "createdAt": "2025-11-08T20:19:47Z",
+    "updatedAt": "2025-11-08T20:20:37Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "ai-translated"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276310,
+    "title": "bla",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276310",
+    "createdAt": "2025-11-08T20:10:31Z",
+    "updatedAt": "2025-11-08T20:18:20Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "invalid"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276309,
+    "title": "WSL ~/.editorconfig ignored",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276309",
+    "createdAt": "2025-11-08T19:50:56Z",
+    "updatedAt": "2025-11-08T20:14:13Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276307,
+    "title": "RETARTED AI",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276307",
+    "createdAt": "2025-11-08T19:22:38Z",
+    "updatedAt": "2025-11-08T19:24:39Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276306,
+    "title": "CustomOAI: Toggle to select responses API vs completions API does not work",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276306",
+    "createdAt": "2025-11-08T19:18:51Z",
+    "updatedAt": "2025-11-08T19:19:46Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276305,
+    "title": "runSubagent uses a premium request",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276305",
+    "createdAt": "2025-11-08T19:17:05Z",
+    "updatedAt": "2025-11-08T19:17:05Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "candidate",
+      "chat-subagents"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276304,
+    "title": "GPT from OpenAI unwanted",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276304",
+    "createdAt": "2025-11-08T19:16:08Z",
+    "updatedAt": "2025-11-08T19:17:37Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276303,
+    "title": "Add Kimi K2 Thinking to Copilot Chat",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276303",
+    "createdAt": "2025-11-08T19:03:06Z",
+    "updatedAt": "2025-11-08T19:04:01Z",
+    "comments": 0,
+    "reactions": 1,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276302,
+    "title": "test",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276302",
+    "createdAt": "2025-11-08T18:55:59Z",
+    "updatedAt": "2025-11-08T18:57:39Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276301,
+    "title": "VS Code Remote (WSL) extension host high CPU and frequent restarts when Copilot Chat active",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276301",
+    "createdAt": "2025-11-08T18:36:31Z",
+    "updatedAt": "2025-11-08T18:37:33Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276300,
+    "title": "bug in my ca xosw",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276300",
+    "createdAt": "2025-11-08T18:20:19Z",
+    "updatedAt": "2025-11-08T18:21:39Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276299,
+    "title": "Directory junction child renamed, imports update automatically but then have errors until restart",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276299",
+    "createdAt": "2025-11-08T18:12:19Z",
+    "updatedAt": "2025-11-08T19:11:26Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276298,
+    "title": "tried to delete my project",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276298",
+    "createdAt": "2025-11-08T17:43:07Z",
+    "updatedAt": "2025-11-08T17:44:33Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276296,
+    "title": " \"Open current folder in new window\" appears as Chinese  text \"在新窗口打开当前文件夹\" ",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276296",
+    "createdAt": "2025-11-08T17:30:09Z",
+    "updatedAt": "2025-11-08T18:14:39Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276295,
+    "title": "Visual studio code keeps crashing",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276295",
+    "createdAt": "2025-11-08T17:21:56Z",
+    "updatedAt": "2025-11-08T18:14:46Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276294,
+    "title": "No response returned",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276294",
+    "createdAt": "2025-11-08T17:09:20Z",
+    "updatedAt": "2025-11-08T17:11:01Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276293,
+    "title": "enable latest models",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276293",
+    "createdAt": "2025-11-08T17:05:23Z",
+    "updatedAt": "2025-11-08T17:06:58Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276292,
+    "title": "GPT5 randomly failing to Complete Requests",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276292",
+    "createdAt": "2025-11-08T16:53:47Z",
+    "updatedAt": "2025-11-08T17:17:04Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276291,
+    "title": "GPT5 randomly failing to Complete Requests",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276291",
+    "createdAt": "2025-11-08T16:53:46Z",
+    "updatedAt": "2025-11-08T16:54:41Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276290,
+    "title": "github copilot pro",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276290",
+    "createdAt": "2025-11-08T15:56:16Z",
+    "updatedAt": "2025-11-08T15:57:45Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276289,
+    "title": "Bookmarks",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276289",
+    "createdAt": "2025-11-08T15:52:50Z",
+    "updatedAt": "2025-11-08T20:11:02Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "*extension-candidate",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276288,
+    "title": "copilot field does not close",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276288",
+    "createdAt": "2025-11-08T15:49:56Z",
+    "updatedAt": "2025-11-08T15:52:25Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276286,
+    "title": "Copilot zerstört alles",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276286",
+    "createdAt": "2025-11-08T15:42:21Z",
+    "updatedAt": "2025-11-08T15:43:32Z",
+    "comments": 3,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "translation-required-german",
+      "triage-needed",
+      "ai-translated"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276285,
+    "title": "not working",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276285",
+    "createdAt": "2025-11-08T15:36:26Z",
+    "updatedAt": "2025-11-08T15:37:49Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "chat-billing"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276283,
+    "title": "new",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276283",
+    "createdAt": "2025-11-08T15:22:13Z",
+    "updatedAt": "2025-11-08T15:23:41Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276282,
+    "title": "Agent says is made changes, but no real working changes diff",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276282",
+    "createdAt": "2025-11-08T15:19:05Z",
+    "updatedAt": "2025-11-08T15:22:15Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276281,
+    "title": "The ai can't catch the code selection in chat when using the newly version of copilot chat",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276281",
+    "createdAt": "2025-11-08T15:15:55Z",
+    "updatedAt": "2025-11-08T15:50:44Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276280,
+    "title": "あ",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276280",
+    "createdAt": "2025-11-08T15:13:54Z",
+    "updatedAt": "2025-11-08T15:15:34Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed",
+      "ai-translated"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276279,
+    "title": "unlock",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276279",
+    "createdAt": "2025-11-08T15:12:56Z",
+    "updatedAt": "2025-11-08T15:14:00Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276277,
+    "title": "[Feature Request] Allow extensions to access files larger than 50M",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276277",
+    "createdAt": "2025-11-08T15:07:10Z",
+    "updatedAt": "2025-11-08T19:41:47Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276276,
+    "title": "ads",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276276",
+    "createdAt": "2025-11-08T14:52:17Z",
+    "updatedAt": "2025-11-08T14:53:43Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276275,
+    "title": "Visual studio code crashing",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276275",
+    "createdAt": "2025-11-08T14:37:22Z",
+    "updatedAt": "2025-11-08T16:11:05Z",
+    "comments": 3,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276274,
+    "title": "I'm sorry, but I cannot assist with that request.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276274",
+    "createdAt": "2025-11-08T14:15:53Z",
+    "updatedAt": "2025-11-08T19:49:51Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276273,
+    "title": "Publish Branch dialog closes immediately when connected to WSL and Windows proxy is set",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276273",
+    "createdAt": "2025-11-08T14:00:00Z",
+    "updatedAt": "2025-11-08T14:20:54Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276269,
+    "title": "no folders show in open editor",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276269",
+    "createdAt": "2025-11-08T13:35:36Z",
+    "updatedAt": "2025-11-08T14:12:39Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276268,
+    "title": "Bug Report: Incorrect Copy Behavior for Array/Object Values in JavaScript Debug Terminal",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276268",
+    "createdAt": "2025-11-08T13:12:36Z",
+    "updatedAt": "2025-11-08T14:12:41Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276265,
+    "title": "Almost every request is failing in the copilot chat agent mode. This is super annoying as its tied to premium requests.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276265",
+    "createdAt": "2025-11-08T12:51:30Z",
+    "updatedAt": "2025-11-08T12:52:33Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276264,
+    "title": "terminal is laggy",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276264",
+    "createdAt": "2025-11-08T12:48:30Z",
+    "updatedAt": "2025-11-08T12:49:44Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276262,
+    "title": "problem",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276262",
+    "createdAt": "2025-11-08T12:44:53Z",
+    "updatedAt": "2025-11-08T12:45:08Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276261,
+    "title": "${command:xxx} is not evaluated in task.json's inputs",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276261",
+    "createdAt": "2025-11-08T12:23:29Z",
+    "updatedAt": "2025-11-08T13:17:05Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276260,
+    "title": "internet loading issue not tested",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276260",
+    "createdAt": "2025-11-08T11:03:42Z",
+    "updatedAt": "2025-11-08T11:04:49Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276258,
+    "title": "Copilot",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276258",
+    "createdAt": "2025-11-08T10:48:55Z",
+    "updatedAt": "2025-11-08T11:03:53Z",
+    "comments": 3,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276257,
+    "title": "Copilot",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276257",
+    "createdAt": "2025-11-08T10:48:41Z",
+    "updatedAt": "2025-11-08T10:50:06Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276256,
+    "title": "<current_datetime> displayed in CLI when resuming chat in terminal that was started in chat editor",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276256",
+    "createdAt": "2025-11-08T10:38:57Z",
+    "updatedAt": "2025-11-08T10:39:34Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "chat-cli-integration"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276255,
+    "title": "Give me my tokens back",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276255",
+    "createdAt": "2025-11-08T09:08:03Z",
+    "updatedAt": "2025-11-08T09:09:42Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276254,
+    "title": "My 300 free Copilot Pro requests were exhausted, and I was unable to extend",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276254",
+    "createdAt": "2025-11-08T08:52:38Z",
+    "updatedAt": "2025-11-08T15:31:16Z",
+    "comments": 3,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276253,
+    "title": "Code incorrectly assumes `wsl.exe` outputs UTF-16LE when the `WSL_UTF8` environment variable is set",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276253",
+    "createdAt": "2025-11-08T08:31:09Z",
+    "updatedAt": "2025-11-08T10:27:20Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276251,
+    "title": "Secondary Side Bar opens Copilot Chat instead of first tab in panel",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276251",
+    "createdAt": "2025-11-08T07:59:30Z",
+    "updatedAt": "2025-11-08T08:00:39Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276249,
+    "title": "No reponse was retuned error too much time for GPT 5 specially",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276249",
+    "createdAt": "2025-11-08T07:35:47Z",
+    "updatedAt": "2025-11-08T07:37:08Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276248,
+    "title": "ghosting",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276248",
+    "createdAt": "2025-11-08T07:23:33Z",
+    "updatedAt": "2025-11-08T08:14:25Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276247,
+    "title": "我有能成功登录github的帐号和密码，但在VScode上就登录不上。Visual Studio Code Failed to sign in to GitHub邮箱是dingmeng10@sina.com用户名是ding1020",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276247",
+    "createdAt": "2025-11-08T07:12:21Z",
+    "updatedAt": "2025-11-08T07:22:18Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "ai-translated"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276246,
+    "title": "Chat: sign-out/sign-in flow very broken",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276246",
+    "createdAt": "2025-11-08T07:11:10Z",
+    "updatedAt": "2025-11-08T15:33:32Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "unreleased",
+      "chat-setup"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276245,
+    "title": "Chat model requires UI to continue to run",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276245",
+    "createdAt": "2025-11-08T06:33:11Z",
+    "updatedAt": "2025-11-08T18:44:41Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "*duplicate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276244,
+    "title": "Inconsistent font for terminal outputs",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276244",
+    "createdAt": "2025-11-08T06:03:30Z",
+    "updatedAt": "2025-11-08T06:03:39Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "ux"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276243,
+    "title": "Agents View: support archive/delete sessions",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276243",
+    "createdAt": "2025-11-08T05:32:14Z",
+    "updatedAt": "2025-11-08T07:15:41Z",
+    "comments": 1,
+    "reactions": 1,
+    "labels": [
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276242,
+    "title": "Did not return a response",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276242",
+    "createdAt": "2025-11-08T05:12:43Z",
+    "updatedAt": "2025-11-08T05:14:25Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276241,
+    "title": "putting plotly output to png",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276241",
+    "createdAt": "2025-11-08T05:07:32Z",
+    "updatedAt": "2025-11-08T05:13:05Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276240,
+    "title": "When Copilot Code Review (CCR) no-ops, there's no notice to user as to why",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276240",
+    "createdAt": "2025-11-08T05:01:55Z",
+    "updatedAt": "2025-11-08T05:03:37Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "chat-review"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276238,
+    "title": " Unable to connect  Firefox can’t establish a connection to the server at 127.0.0.1:8000.      The site could be temporarily unavailable or too busy. Try again in a few moments.     If you are unable to load any pages, check your computer’s network connection.     If your computer or network is protected by a firewall or proxy, make sure that Firefox is permitted to access the web.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276238",
+    "createdAt": "2025-11-08T04:19:27Z",
+    "updatedAt": "2025-11-08T05:13:10Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276237,
+    "title": ".zshrc:52: parse error near `unset'",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276237",
+    "createdAt": "2025-11-08T03:12:19Z",
+    "updatedAt": "2025-11-08T03:27:24Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276236,
+    "title": "Files won't compile for assignment.",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276236",
+    "createdAt": "2025-11-08T02:59:09Z",
+    "updatedAt": "2025-11-08T03:00:21Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276235,
+    "title": "Claude don't realize it is in Ask mode",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276235",
+    "createdAt": "2025-11-08T02:46:40Z",
+    "updatedAt": "2025-11-08T02:48:19Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276234,
+    "title": "Stuck on collapsing",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276234",
+    "createdAt": "2025-11-08T02:44:51Z",
+    "updatedAt": "2025-11-08T03:48:31Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276232,
+    "title": "Request id: 9e8d9bfd-85df-4301-a6eb-d18c90d2ce0f",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276232",
+    "createdAt": "2025-11-08T01:34:51Z",
+    "updatedAt": "2025-11-08T01:36:03Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276231,
+    "title": "Agents View: color contrast ratio",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276231",
+    "createdAt": "2025-11-08T01:25:22Z",
+    "updatedAt": "2025-11-08T15:51:29Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "ux",
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276230,
+    "title": "loop",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276230",
+    "createdAt": "2025-11-08T01:18:08Z",
+    "updatedAt": "2025-11-08T01:41:58Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276229,
+    "title": "frozen",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276229",
+    "createdAt": "2025-11-08T01:08:46Z",
+    "updatedAt": "2025-11-08T01:10:33Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276228,
+    "title": "No following the execution",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276228",
+    "createdAt": "2025-11-08T01:04:36Z",
+    "updatedAt": "2025-11-08T01:42:01Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276227,
+    "title": "Weird Prompt file linting error: No link definition found",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276227",
+    "createdAt": "2025-11-08T00:34:19Z",
+    "updatedAt": "2025-11-08T00:34:38Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276226,
+    "title": "Agents View: should \"New Session\" dropdown remembers last choice?",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276226",
+    "createdAt": "2025-11-08T00:16:02Z",
+    "updatedAt": "2025-11-08T05:54:05Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276225,
+    "title": "⛔ Agent View: missing foreground sessions",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276225",
+    "createdAt": "2025-11-08T00:13:49Z",
+    "updatedAt": "2025-11-08T06:47:41Z",
+    "comments": 4,
+    "reactions": 0,
+    "labels": [
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276224,
+    "title": "Agents View: emphasis on active chat sessions for the day",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276224",
+    "createdAt": "2025-11-08T00:11:53Z",
+    "updatedAt": "2025-11-08T07:16:45Z",
+    "comments": 1,
+    "reactions": 1,
+    "labels": [
+      "ux",
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276223,
+    "title": "AI won't continue writing code",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276223",
+    "createdAt": "2025-11-07T23:48:41Z",
+    "updatedAt": "2025-11-07T23:49:58Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276222,
+    "title": "Have the terminal tool separately define a CWD it runs it?",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276222",
+    "createdAt": "2025-11-07T23:46:22Z",
+    "updatedAt": "2025-11-08T12:57:30Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "feature-request",
+      "chat-terminal"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276221,
+    "title": "vscode update doesn't respect or know window / space it was in.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276221",
+    "createdAt": "2025-11-07T23:30:29Z",
+    "updatedAt": "2025-11-08T00:37:00Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276220,
+    "title": "Agents View: show pending permission request",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276220",
+    "createdAt": "2025-11-07T23:28:45Z",
+    "updatedAt": "2025-11-08T07:17:35Z",
+    "comments": 1,
+    "reactions": 1,
+    "labels": [
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276219,
+    "title": "\"No staged changes (stage all?)\" (Suggest Smart Commit) modal does not conform to Microsoft interface guidelines.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276219",
+    "createdAt": "2025-11-07T23:07:42Z",
+    "updatedAt": "2025-11-08T02:07:37Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276218,
+    "title": "request failes",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276218",
+    "createdAt": "2025-11-07T22:47:54Z",
+    "updatedAt": "2025-11-07T22:49:23Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276217,
+    "title": "file folder is missing ",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276217",
+    "createdAt": "2025-11-07T22:34:27Z",
+    "updatedAt": "2025-11-07T23:13:20Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276216,
+    "title": "testv003",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276216",
+    "createdAt": "2025-11-07T22:34:01Z",
+    "updatedAt": "2025-11-07T22:35:30Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam",
+      "chat-ext-issue"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276215,
+    "title": "Unable to resolve chat model with family selection: gpt-4.1  Restaurar Ponto de Verificação",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276215",
+    "createdAt": "2025-11-07T22:24:33Z",
+    "updatedAt": "2025-11-07T22:25:44Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276214,
+    "title": "> #5000 – انهيار التزامن الرمزي في بيئة Git LFS عند التهيئة الجزئية",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276214",
+    "createdAt": "2025-11-07T22:10:59Z",
+    "updatedAt": "2025-11-07T23:13:22Z",
+    "comments": 6,
+    "reactions": 0,
+    "labels": [
+      "ai-translated"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276213,
+    "title": "Error occurs in git \"Sync Changes\": This repository is configured for Git LFS but 'git-lfs' was not found on your path.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276213",
+    "createdAt": "2025-11-07T21:58:36Z",
+    "updatedAt": "2025-11-07T22:13:37Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276212,
+    "title": "Auto-approve writes to /dev/null",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276212",
+    "createdAt": "2025-11-07T21:58:00Z",
+    "updatedAt": "2025-11-08T12:44:14Z",
+    "comments": 0,
+    "reactions": 3,
+    "labels": [
+      "bug",
+      "chat-terminal"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276210,
+    "title": "ignore",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276210",
+    "createdAt": "2025-11-07T21:40:22Z",
+    "updatedAt": "2025-11-07T21:41:51Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276209,
+    "title": "Old todos stick around",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276209",
+    "createdAt": "2025-11-07T21:37:15Z",
+    "updatedAt": "2025-11-07T21:37:22Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276208,
+    "title": "Clean up copilot auth service",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276208",
+    "createdAt": "2025-11-07T21:30:13Z",
+    "updatedAt": "2025-11-07T21:30:14Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "debt",
+      "chat-authentication"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276206,
+    "title": "signed out model picker UI",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276206",
+    "createdAt": "2025-11-07T21:28:39Z",
+    "updatedAt": "2025-11-07T21:46:49Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276205,
+    "title": "When is Sonnet 4.5 w/ extended thinking coming to GitHub Copilot?",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276205",
+    "createdAt": "2025-11-07T21:27:18Z",
+    "updatedAt": "2025-11-07T21:29:08Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "chat-billing"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276204,
+    "title": "Copilot provided incorrect Square OAuth endpoint for sandbox testing",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276204",
+    "createdAt": "2025-11-07T21:19:12Z",
+    "updatedAt": "2025-11-07T21:20:18Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276203,
+    "title": "Files generated are not created",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276203",
+    "createdAt": "2025-11-07T21:17:30Z",
+    "updatedAt": "2025-11-08T10:31:22Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276199,
+    "title": "freezing",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276199",
+    "createdAt": "2025-11-07T21:06:57Z",
+    "updatedAt": "2025-11-07T21:08:34Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276198,
+    "title": "Message disappears when clicking around the edit experience",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276198",
+    "createdAt": "2025-11-07T21:03:15Z",
+    "updatedAt": "2025-11-07T21:03:15Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276197,
+    "title": "[ISSUE]: Copilot is crashed and freezed",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276197",
+    "createdAt": "2025-11-07T21:00:22Z",
+    "updatedAt": "2025-11-07T21:01:39Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276196,
+    "title": "# GitHub Copilot Chat Cannot Reference MCP Servers with Special Characters Using # Notation",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276196",
+    "createdAt": "2025-11-07T20:59:28Z",
+    "updatedAt": "2025-11-07T21:00:14Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276193,
+    "title": "Make sensitive file confirmations easier to understand",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276193",
+    "createdAt": "2025-11-07T20:55:56Z",
+    "updatedAt": "2025-11-08T16:53:21Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276192,
+    "title": "GitHub Copilot `applyTo` instructions implementation inadequate for deciding which to use for new files.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276192",
+    "createdAt": "2025-11-07T20:50:29Z",
+    "updatedAt": "2025-11-07T20:51:30Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276191,
+    "title": ".",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276191",
+    "createdAt": "2025-11-07T20:47:36Z",
+    "updatedAt": "2025-11-07T20:51:56Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276190,
+    "title": "Error",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276190",
+    "createdAt": "2025-11-07T20:43:51Z",
+    "updatedAt": "2025-11-07T20:45:10Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276189,
+    "title": "Error",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276189",
+    "createdAt": "2025-11-07T20:43:48Z",
+    "updatedAt": "2025-11-07T20:45:06Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276188,
+    "title": "Error",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276188",
+    "createdAt": "2025-11-07T20:43:48Z",
+    "updatedAt": "2025-11-07T20:45:29Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276187,
+    "title": "Error",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276187",
+    "createdAt": "2025-11-07T20:43:48Z",
+    "updatedAt": "2025-11-07T20:45:31Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276183,
+    "title": "Chat: send entitlements when anonymous usage changes",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276183",
+    "createdAt": "2025-11-07T20:25:56Z",
+    "updatedAt": "2025-11-07T20:25:56Z",
+    "comments": 0,
+    "reactions": 1,
+    "labels": [
+      "candidate",
+      "workbench-copilot"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276182,
+    "title": "The copilot assistant is clearing the project without any authorization",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276182",
+    "createdAt": "2025-11-07T20:15:42Z",
+    "updatedAt": "2025-11-07T20:24:58Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276181,
+    "title": "Explore new approach to service injections",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276181",
+    "createdAt": "2025-11-07T20:14:06Z",
+    "updatedAt": "2025-11-07T20:14:06Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "debt"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276180,
+    "title": "Chat History",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276180",
+    "createdAt": "2025-11-07T19:55:36Z",
+    "updatedAt": "2025-11-07T19:56:58Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276178,
+    "title": "infinit while",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276178",
+    "createdAt": "2025-11-07T19:51:11Z",
+    "updatedAt": "2025-11-07T20:13:27Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276176,
+    "title": "Allow the Panel (as a whole) to behave like an editor region for better use of screen space",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276176",
+    "createdAt": "2025-11-07T19:40:14Z",
+    "updatedAt": "2025-11-07T20:13:32Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276175,
+    "title": "Error: todoList is required for write operation",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276175",
+    "createdAt": "2025-11-07T19:33:48Z",
+    "updatedAt": "2025-11-07T19:33:48Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276172,
+    "title": "Unable to authenticate",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276172",
+    "createdAt": "2025-11-07T19:27:55Z",
+    "updatedAt": "2025-11-07T20:12:03Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "*caused-by-extension"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276169,
+    "title": "Show 'upgrade auth' button in the agents welcome view when we don't have the big token",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276169",
+    "createdAt": "2025-11-07T19:19:48Z",
+    "updatedAt": "2025-11-08T02:08:08Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "verified",
+      "candidate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276168,
+    "title": "Keeps opening a new terminal to run a script",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276168",
+    "createdAt": "2025-11-07T19:16:28Z",
+    "updatedAt": "2025-11-07T19:17:32Z",
+    "comments": 0,
+    "reactions": 1,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276167,
+    "title": "CLI session permission failure",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276167",
+    "createdAt": "2025-11-07T19:15:23Z",
+    "updatedAt": "2025-11-07T22:48:26Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "candidate",
+      "regression",
+      "unreleased"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276165,
+    "title": "cloud agent: handle the 'rejection' for authPermissionPrompted prompt",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276165",
+    "createdAt": "2025-11-07T19:08:52Z",
+    "updatedAt": "2025-11-08T02:07:30Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "verified",
+      "candidate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276160,
+    "title": "400 error",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276160",
+    "createdAt": "2025-11-07T18:48:10Z",
+    "updatedAt": "2025-11-07T18:49:26Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276159,
+    "title": "No mess content, that hidden?",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276159",
+    "createdAt": "2025-11-07T18:38:42Z",
+    "updatedAt": "2025-11-07T18:40:28Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276158,
+    "title": "SQL sign in not is not redirecting the auth token back to VS Code - Cannot Create or use SQL Connections",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276158",
+    "createdAt": "2025-11-07T18:38:02Z",
+    "updatedAt": "2025-11-07T20:13:54Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "info-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276157,
+    "title": "Adopt isObject, isNumber and isString in terminal",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276157",
+    "createdAt": "2025-11-07T18:35:14Z",
+    "updatedAt": "2025-11-07T18:35:14Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "debt",
+      "terminal"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276156,
+    "title": "outline functionality in diff editor",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276156",
+    "createdAt": "2025-11-07T18:26:07Z",
+    "updatedAt": "2025-11-07T19:12:23Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276154,
+    "title": "Super slow",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276154",
+    "createdAt": "2025-11-07T18:22:01Z",
+    "updatedAt": "2025-11-07T18:23:20Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276153,
+    "title": "Error Notifications Spam Making VSCode Unusable",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276153",
+    "createdAt": "2025-11-07T18:18:34Z",
+    "updatedAt": "2025-11-07T20:05:38Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "feature-request",
+      "workbench-notifications"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276151,
+    "title": "Crashes multiple times",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276151",
+    "createdAt": "2025-11-07T18:10:00Z",
+    "updatedAt": "2025-11-07T18:11:19Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276150,
+    "title": "Timed out waiting for authentication provider 'github' to register.",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276150",
+    "createdAt": "2025-11-07T18:09:56Z",
+    "updatedAt": "2025-11-07T18:10:06Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "error-telemetry"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276149,
+    "title": "trying to use cloud agent - Received invalid response 403 from cloud agent.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276149",
+    "createdAt": "2025-11-07T18:05:27Z",
+    "updatedAt": "2025-11-07T18:06:19Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276148,
+    "title": "Erro chat",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276148",
+    "createdAt": "2025-11-07T18:02:50Z",
+    "updatedAt": "2025-11-07T18:04:23Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276147,
+    "title": "Lentitud en mi editor de código",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276147",
+    "createdAt": "2025-11-07T17:50:24Z",
+    "updatedAt": "2025-11-07T23:33:32Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "ai-translated"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276146,
+    "title": "cloud agent: Handle 422 errors gracefully.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276146",
+    "createdAt": "2025-11-07T17:48:13Z",
+    "updatedAt": "2025-11-07T17:49:20Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "candidate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276145,
+    "title": "Remove intent detection from agentic ask",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276145",
+    "createdAt": "2025-11-07T17:44:43Z",
+    "updatedAt": "2025-11-07T17:47:59Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "chat-agent",
+      "chat-custom-modes"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276144,
+    "title": "Mangler enabled in hyenie/CI part of pipeline?",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276144",
+    "createdAt": "2025-11-07T17:27:10Z",
+    "updatedAt": "2025-11-07T17:27:10Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276143,
+    "title": "Make contrast closer to 3:1, less stark",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276143",
+    "createdAt": "2025-11-07T17:26:21Z",
+    "updatedAt": "2025-11-07T17:26:29Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "feature-request",
+      "accessibility"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276142,
+    "title": "make terminal completion provider API proposed again",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276142",
+    "createdAt": "2025-11-07T17:21:14Z",
+    "updatedAt": "2025-11-07T18:53:27Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "candidate",
+      "terminal-suggest"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276141,
+    "title": "/savePrompt creates un-findable file",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276141",
+    "createdAt": "2025-11-07T17:20:54Z",
+    "updatedAt": "2025-11-07T17:22:29Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276140,
+    "title": "No lowest priority node found (path: Bve) (at tsx element kv)",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276140",
+    "createdAt": "2025-11-07T17:17:01Z",
+    "updatedAt": "2025-11-08T23:13:01Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276139,
+    "title": "Copilot Chat on auto errors out on max_token error while was not even near any limit.",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276139",
+    "createdAt": "2025-11-07T17:15:01Z",
+    "updatedAt": "2025-11-07T17:16:19Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276136,
+    "title": "Cannot read properties of undefined (reading 'node')",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276136",
+    "createdAt": "2025-11-07T17:11:47Z",
+    "updatedAt": "2025-11-07T17:14:23Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276135,
+    "title": "rate limit",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276135",
+    "createdAt": "2025-11-07T17:11:03Z",
+    "updatedAt": "2025-11-07T17:12:31Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276133,
+    "title": "wording on uncommitted changes when launching remote coding session",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276133",
+    "createdAt": "2025-11-07T17:04:24Z",
+    "updatedAt": "2025-11-07T17:04:24Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276132,
+    "title": "'No activated agent' for cloud/cli agents",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276132",
+    "createdAt": "2025-11-07T17:02:24Z",
+    "updatedAt": "2025-11-08T02:01:50Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "bug",
+      "verified",
+      "candidate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276131,
+    "title": "Auto switch model when model provider has an incident",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276131",
+    "createdAt": "2025-11-07T16:58:25Z",
+    "updatedAt": "2025-11-07T16:58:25Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "plan-item"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276129,
+    "title": "Modular settings: support splitting `settings.json` into multiple files (e.g., per-extension or feature)",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276129",
+    "createdAt": "2025-11-07T16:55:52Z",
+    "updatedAt": "2025-11-08T00:03:35Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276128,
+    "title": "Script built by the entity who used this script likes to try to make someones day harder",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276128",
+    "createdAt": "2025-11-07T16:55:38Z",
+    "updatedAt": "2025-11-07T17:22:02Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276124,
+    "title": "bug with open memory command",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276124",
+    "createdAt": "2025-11-07T16:47:31Z",
+    "updatedAt": "2025-11-07T16:49:56Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276123,
+    "title": "Not anwering requests",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276123",
+    "createdAt": "2025-11-07T16:45:14Z",
+    "updatedAt": "2025-11-07T16:46:27Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276122,
+    "title": "creating two sessions simultaneously creates bug",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276122",
+    "createdAt": "2025-11-07T16:42:36Z",
+    "updatedAt": "2025-11-07T17:06:41Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276121,
+    "title": "claude sonnet 4 fail",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276121",
+    "createdAt": "2025-11-07T16:39:42Z",
+    "updatedAt": "2025-11-07T16:41:20Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276235,
+    "title": "Claude don't realize it is in Ask mode",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276235",
+    "createdAt": "2025-11-08T02:46:40Z",
+    "updatedAt": "2025-11-08T02:48:19Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276234,
+    "title": "Stuck on collapsing",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276234",
+    "createdAt": "2025-11-08T02:44:51Z",
+    "updatedAt": "2025-11-08T03:48:31Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276232,
+    "title": "Request id: 9e8d9bfd-85df-4301-a6eb-d18c90d2ce0f",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276232",
+    "createdAt": "2025-11-08T01:34:51Z",
+    "updatedAt": "2025-11-08T01:36:03Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276231,
+    "title": "Agents View: color contrast ratio",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276231",
+    "createdAt": "2025-11-08T01:25:22Z",
+    "updatedAt": "2025-11-08T15:51:29Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "ux",
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276230,
+    "title": "loop",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276230",
+    "createdAt": "2025-11-08T01:18:08Z",
+    "updatedAt": "2025-11-08T01:41:58Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276229,
+    "title": "frozen",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276229",
+    "createdAt": "2025-11-08T01:08:46Z",
+    "updatedAt": "2025-11-08T01:10:33Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276228,
+    "title": "No following the execution",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276228",
+    "createdAt": "2025-11-08T01:04:36Z",
+    "updatedAt": "2025-11-08T01:42:01Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276227,
+    "title": "Weird Prompt file linting error: No link definition found",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276227",
+    "createdAt": "2025-11-08T00:34:19Z",
+    "updatedAt": "2025-11-08T00:34:38Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276226,
+    "title": "Agents View: should \"New Session\" dropdown remembers last choice?",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276226",
+    "createdAt": "2025-11-08T00:16:02Z",
+    "updatedAt": "2025-11-08T05:54:05Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276225,
+    "title": "⛔ Agent View: missing foreground sessions",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276225",
+    "createdAt": "2025-11-08T00:13:49Z",
+    "updatedAt": "2025-11-08T06:47:41Z",
+    "comments": 4,
+    "reactions": 0,
+    "labels": [
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276224,
+    "title": "Agents View: emphasis on active chat sessions for the day",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276224",
+    "createdAt": "2025-11-08T00:11:53Z",
+    "updatedAt": "2025-11-08T07:16:45Z",
+    "comments": 1,
+    "reactions": 1,
+    "labels": [
+      "ux",
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276223,
+    "title": "AI won't continue writing code",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276223",
+    "createdAt": "2025-11-07T23:48:41Z",
+    "updatedAt": "2025-11-07T23:49:58Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276222,
+    "title": "Have the terminal tool separately define a CWD it runs it?",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276222",
+    "createdAt": "2025-11-07T23:46:22Z",
+    "updatedAt": "2025-11-08T12:57:30Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "feature-request",
+      "chat-terminal"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276221,
+    "title": "vscode update doesn't respect or know window / space it was in.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276221",
+    "createdAt": "2025-11-07T23:30:29Z",
+    "updatedAt": "2025-11-08T00:37:00Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276220,
+    "title": "Agents View: show pending permission request",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276220",
+    "createdAt": "2025-11-07T23:28:45Z",
+    "updatedAt": "2025-11-08T07:17:35Z",
+    "comments": 1,
+    "reactions": 1,
+    "labels": [
+      "chat-agents-view"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276219,
+    "title": "\"No staged changes (stage all?)\" (Suggest Smart Commit) modal does not conform to Microsoft interface guidelines.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276219",
+    "createdAt": "2025-11-07T23:07:42Z",
+    "updatedAt": "2025-11-08T02:07:37Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276218,
+    "title": "request failes",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276218",
+    "createdAt": "2025-11-07T22:47:54Z",
+    "updatedAt": "2025-11-07T22:49:23Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276217,
+    "title": "file folder is missing ",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276217",
+    "createdAt": "2025-11-07T22:34:27Z",
+    "updatedAt": "2025-11-07T23:13:20Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276216,
+    "title": "testv003",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276216",
+    "createdAt": "2025-11-07T22:34:01Z",
+    "updatedAt": "2025-11-07T22:35:30Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "spam",
+      "chat-ext-issue"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276215,
+    "title": "Unable to resolve chat model with family selection: gpt-4.1  Restaurar Ponto de Verificação",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276215",
+    "createdAt": "2025-11-07T22:24:33Z",
+    "updatedAt": "2025-11-07T22:25:44Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276214,
+    "title": "> #5000 – انهيار التزامن الرمزي في بيئة Git LFS عند التهيئة الجزئية",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276214",
+    "createdAt": "2025-11-07T22:10:59Z",
+    "updatedAt": "2025-11-07T23:13:22Z",
+    "comments": 6,
+    "reactions": 0,
+    "labels": [
+      "ai-translated"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276213,
+    "title": "Error occurs in git \"Sync Changes\": This repository is configured for Git LFS but 'git-lfs' was not found on your path.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276213",
+    "createdAt": "2025-11-07T21:58:36Z",
+    "updatedAt": "2025-11-07T22:13:37Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276212,
+    "title": "Auto-approve writes to /dev/null",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276212",
+    "createdAt": "2025-11-07T21:58:00Z",
+    "updatedAt": "2025-11-08T12:44:14Z",
+    "comments": 0,
+    "reactions": 3,
+    "labels": [
+      "bug",
+      "chat-terminal"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276210,
+    "title": "ignore",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276210",
+    "createdAt": "2025-11-07T21:40:22Z",
+    "updatedAt": "2025-11-07T21:41:51Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "spam"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276209,
+    "title": "Old todos stick around",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276209",
+    "createdAt": "2025-11-07T21:37:15Z",
+    "updatedAt": "2025-11-07T21:37:22Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276208,
+    "title": "Clean up copilot auth service",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276208",
+    "createdAt": "2025-11-07T21:30:13Z",
+    "updatedAt": "2025-11-07T21:30:14Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "debt",
+      "chat-authentication"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276206,
+    "title": "signed out model picker UI",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276206",
+    "createdAt": "2025-11-07T21:28:39Z",
+    "updatedAt": "2025-11-07T21:46:49Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276205,
+    "title": "When is Sonnet 4.5 w/ extended thinking coming to GitHub Copilot?",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276205",
+    "createdAt": "2025-11-07T21:27:18Z",
+    "updatedAt": "2025-11-07T21:29:08Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "chat-billing"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276204,
+    "title": "Copilot provided incorrect Square OAuth endpoint for sandbox testing",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276204",
+    "createdAt": "2025-11-07T21:19:12Z",
+    "updatedAt": "2025-11-07T21:20:18Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276203,
+    "title": "Files generated are not created",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276203",
+    "createdAt": "2025-11-07T21:17:30Z",
+    "updatedAt": "2025-11-08T10:31:22Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276199,
+    "title": "freezing",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276199",
+    "createdAt": "2025-11-07T21:06:57Z",
+    "updatedAt": "2025-11-07T21:08:34Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276198,
+    "title": "Message disappears when clicking around the edit experience",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276198",
+    "createdAt": "2025-11-07T21:03:15Z",
+    "updatedAt": "2025-11-07T21:03:15Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276197,
+    "title": "[ISSUE]: Copilot is crashed and freezed",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276197",
+    "createdAt": "2025-11-07T21:00:22Z",
+    "updatedAt": "2025-11-07T21:01:39Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "info-needed",
+      "triage-needed"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276196,
+    "title": "# GitHub Copilot Chat Cannot Reference MCP Servers with Special Characters Using # Notation",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276196",
+    "createdAt": "2025-11-07T20:59:28Z",
+    "updatedAt": "2025-11-07T21:00:14Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276193,
+    "title": "Make sensitive file confirmations easier to understand",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276193",
+    "createdAt": "2025-11-07T20:55:56Z",
+    "updatedAt": "2025-11-08T16:53:21Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276192,
+    "title": "GitHub Copilot `applyTo` instructions implementation inadequate for deciding which to use for new files.",
+    "state": "open",
+    "url": "https://github.com/microsoft/vscode/issues/276192",
+    "createdAt": "2025-11-07T20:50:29Z",
+    "updatedAt": "2025-11-07T20:51:30Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276191,
+    "title": ".",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276191",
+    "createdAt": "2025-11-07T20:47:36Z",
+    "updatedAt": "2025-11-07T20:51:56Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 276190,
+    "title": "Error",
+    "state": "closed",
+    "url": "https://github.com/microsoft/vscode/issues/276190",
+    "createdAt": "2025-11-07T20:43:51Z",
+    "updatedAt": "2025-11-07T20:45:10Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  }
+]

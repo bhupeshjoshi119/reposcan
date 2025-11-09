@@ -9,6 +9,7 @@ import AuthCallback from "./pages/AuthCallback";
 import Test from "./pages/Test";
 import NotFound from "./pages/NotFound";
 import IDE from "./pages/IDE";
+import { PDFReportDemo } from "./pages/PDFReportDemo";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/auth/callback" element={<AuthCallback />} />
             <Route path="/test" element={<Test />} />
             <Route path="/ide/:forkId" element={<IDE />} />
+            <Route path="/pdf-demo" element={<PDFReportDemo />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

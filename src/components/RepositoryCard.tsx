@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Star, GitFork, Eye, Calendar, ExternalLink, Bookmark, Copy, Check, Sparkles, GitCompare, AlertCircle } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
 import { useToast } from "@/hooks/use-toast";
+import { PDFReportButton } from "./PDFReportButton";
 
 interface RepositoryCardProps {
   repository: Repository;
@@ -190,6 +191,13 @@ export const RepositoryCard = ({
               AI Analyze
             </Button>
           )}
+          <PDFReportButton
+            repositoryUrl={repository.html_url}
+            repositoryName={repository.name}
+            githubToken={import.meta.env.VITE_GITHUB_TOKEN}
+            variant="outline"
+            size="sm"
+          />
           <Button
             variant="outline"
             size="sm"

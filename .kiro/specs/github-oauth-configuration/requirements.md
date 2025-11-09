@@ -32,7 +32,7 @@ This feature addresses the GitHub OAuth configuration issue where the redirect U
 #### Acceptance Criteria
 
 1. WHEN a user initiates OAuth flow in development, THE system SHALL redirect to http://localhost:8080/auth/callback
-2. WHEN a user initiates OAuth flow in production, THE system SHALL redirect to https://repoagent-six.vercel.app/auth/callback
+2. WHEN a user initiates OAuth flow in production, THE system SHALL redirect to https://open-repo-lens-backup.vercel.app/auth/callback
 3. THE system SHALL handle OAuth token exchange correctly for both environments
 4. IF the redirect URI is not configured in GitHub OAuth app, THEN THE system SHALL display a clear error message with configuration instructions
 

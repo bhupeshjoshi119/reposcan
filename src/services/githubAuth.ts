@@ -18,13 +18,13 @@ class GitHubAuthService {
   private octokit: Octokit | null = null;
 
   constructor() {
-    this.clientId = import.meta.env.VITE_GITHUB_CLIENT_ID || '';
+    this.clientId = (import.meta.env.VITE_GITHUB_CLIENT_ID || '').trim();
     console.log('🚀 GitHubAuthService initialized - Build:', new Date().toISOString());
   }
 
   // Get redirect URI - always use environment variable for consistency
   private getRedirectUri(): string {
-    return getRedirectUri();
+    return getRedirectUri().trim();
   }
 
   // Generate GitHub OAuth URL

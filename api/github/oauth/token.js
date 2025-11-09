@@ -25,9 +25,17 @@ export default async function handler(req, res) {
     }
 
     // Get environment variables (these are server-side only)
-    const clientId = process.env.VITE_GITHUB_CLIENT_ID;
-    const clientSecret = process.env.VITE_GITHUB_CLIENT_SECRET;
-    const redirectUri = process.env.VITE_GITHUB_REDIRECT_URI;
+    const clientId = process.env.VITE_GITHUB_CLIENT_ID?.trim();
+    const clientSecret = process.env.VITE_GITHUB_CLIENT_SECRET?.trim();
+    const redirectUri = process.env.VITE_GITHUB_REDIRECT_URI?.trim();
+
+    console.log('OAuth Debug:', {
+      hasClientId: !!clientId,
+      hasClientSecret: !!clientSecret,
+      hasRedirectUri: !!redirectUri,
+      clientIdLength: clientId?.length,
+      redirectUri: redirectUri
+    });
 
     if (!clientId || !clientSecret) {
       console.error('Missing GitHub OAuth credentials');
@@ -51,9 +59,15 @@ export default async function handler(req, res) {
     });
 
     if (!response.ok) {
-      console.error('GitHub API error:', response.status, response.statusText);
+      const errorText = await response.text();
+      console.error('GitHub API error:', {
+        status: response.status,
+        statusText: response.statusText,
+        body: errorText
+      });
       return res.status(response.status).json({ 
-        error: 'GitHub API request failed' 
+        error: `GitHub API request failed: ${response.status} ${response.statusText}`,
+        details: errorText
       });
     }
 
@@ -62,7 +76,8 @@ export default async function handler(req, res) {
     if (data.error) {
       console.error('GitHub OAuth error:', data);
       return res.status(400).json({ 
-        error: data.error_description || data.error 
+        error: data.error_description || data.error,
+        details: data
       });
     }
 

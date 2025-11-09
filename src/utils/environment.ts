@@ -11,7 +11,7 @@ export const getEnvironment = () => {
     const hostname = window.location.hostname;
     
     // Production domain
-    if (hostname === 'repoagent-six.vercel.app') {
+    if (hostname === 'open-repo-lens-backup.vercel.app') {
       return 'production';
     }
     
@@ -34,20 +34,20 @@ export const getRedirectUri = () => {
   // Always use environment variable if set - this ensures consistency
   const envRedirectUri = import.meta.env.VITE_GITHUB_REDIRECT_URI;
   if (envRedirectUri) {
-    return envRedirectUri;
+    return envRedirectUri.trim();
   }
   
   // Fallback to dynamic detection only if env var is not set
   if (typeof window === 'undefined') {
     // Server-side rendering fallback
-    return 'https://repoagent-six.vercel.app/auth/callback';
+    return 'https://open-repo-lens-backup.vercel.app/auth/callback';
   }
   
   const hostname = window.location.hostname;
   
   // Exact production domain match
-  if (hostname === 'repoagent-six.vercel.app') {
-    return 'https://repoagent-six.vercel.app/auth/callback';
+  if (hostname === 'open-repo-lens-backup.vercel.app') {
+    return 'https://open-repo-lens-backup.vercel.app/auth/callback';
   }
   
   // Local development (localhost with any port)
@@ -57,14 +57,14 @@ export const getRedirectUri = () => {
   
   // For any other domain, default to production URL
   // This prevents issues with unconfigured domains
-  return 'https://repoagent-six.vercel.app/auth/callback';
+  return 'https://open-repo-lens-backup.vercel.app/auth/callback';
 };
 
 export const getBaseUrl = () => {
   const env = getEnvironment();
   
   if (env === 'production') {
-    return 'https://repoagent-six.vercel.app';
+    return 'https://open-repo-lens-backup.vercel.app';
   }
   
   // Development
