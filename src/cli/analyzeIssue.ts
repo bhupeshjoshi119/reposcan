@@ -142,16 +142,36 @@ Perfect for:
     // Display results
     displayResults(analysis);
 
-    // Generate PDF report
-    console.log('\n📄 Generating PDF report...');
+    // Generate main PDF report
+    console.log('\n📄 Generating PDF reports...');
     const pdfContent = generatePDFContent(analysis);
     const pdfGenerator = new BeautifulPDFGenerator();
-    const pdfBytes = await pdfGenerator.generatePDF(pdfContent);
+    const pdf = pdfGenerator.generatePDF(pdfContent);
 
-    const filename = `issue-${analysis.issue.number}-analysis.pdf`;
-    fs.writeFileSync(filename, pdfBytes);
+    const mainFilename = `issue-${analysis.issue.number}-analysis.pdf`;
+    pdf.save(mainFilename);
+    console.log(`✅ Main report saved: ${mainFilename}`);
 
-    console.log(`✅ PDF report saved: ${filename}`);
+    // Generate individual solution PDFs
+    if (analysis.stackOverflowSolutions && analysis.stackOverflowSolutions.length > 0) {
+      console.log(`\n📄 Generating ${analysis.stackOverflowSolutions.length} solution PDFs...`);
+      
+      for (let i = 0; i < analysis.stackOverflowSolutions.length; i++) {
+        const solution = analysis.stackOverflowSolutions[i];
+        const solutionPdfContent = generateSolutionPDFContent(analysis, solution, i + 1);
+        const solutionPdfGenerator = new BeautifulPDFGenerator();
+        const solutionPdf = solutionPdfGenerator.generatePDF(solutionPdfContent);
+        
+        const solutionFilename = `solution-${i + 1}.pdf`;
+        solutionPdf.save(solutionFilename);
+        console.log(`   ✅ ${solutionFilename} - ${solution.question.title.substring(0, 60)}...`);
+      }
+      
+      console.log(`\n✅ Generated ${analysis.stackOverflowSolutions.length + 1} PDF files total`);
+    } else {
+      console.log('\n💡 No Stack Overflow solutions found - only main report generated');
+    }
+
     console.log(`\n🎉 Analysis complete!`);
 
   } catch (error: any) {
@@ -222,6 +242,90 @@ function displayResults(analysis: any) {
   console.log(`  • Google Search: ${analysis.directLinks.searchUrls.googleSearch}`);
   console.log(`  • Stack Overflow Search: ${analysis.directLinks.searchUrls.stackOverflowSearch}`);
   console.log(`  • GitHub Search: ${analysis.directLinks.searchUrls.githubSearch}\n`);
+}
+
+function generateSolutionPDFContent(analysis: any, solution: any, solutionNumber: number): any {
+  // Generate PDF for individual Stack Overflow solution
+  return {
+    title: `Solution ${solutionNumber} for Issue #${analysis.issue.number}`,
+    sections: [
+      {
+        heading: '📋 GitHub Issue',
+        content: [
+          { type: 'bold', content: `Issue #${analysis.issue.number}` },
+          { type: 'text', content: analysis.issue.title },
+          { type: 'text', content: ' ' },
+          { type: 'text', content: `State: ${analysis.issue.state.toUpperCase()}` },
+          { type: 'link', content: analysis.issue.html_url },
+        ],
+        level: 1
+      },
+      {
+        heading: '💡 Stack Overflow Solution',
+        content: [
+          { type: 'highlight', content: solution.question.title },
+          { type: 'text', content: ' ' },
+          { type: 'bold', content: 'Solution Quality:' },
+          { type: 'text', content: `Relevance Score: ${solution.relevanceScore}%` },
+          { type: 'text', content: `Search Strategy: ${solution.searchStrategy}` },
+          { type: 'text', content: `Community Score: ${solution.question.score}` },
+          { type: 'text', content: `Views: ${solution.question.view_count.toLocaleString()}` },
+          { type: 'text', content: `Answers: ${solution.question.answer_count}` },
+          { type: 'text', content: `Accepted Answer: ${solution.question.is_answered ? 'Yes ✅' : 'No ❌'}` },
+          { type: 'text', content: ' ' },
+          { type: 'bold', content: 'Tags:' },
+          { type: 'text', content: solution.question.tags.join(', ') },
+          { type: 'text', content: ' ' },
+          { type: 'bold', content: 'View Full Solution:' },
+          { type: 'link', content: solution.question.link },
+        ],
+        level: 1
+      },
+      {
+        heading: '🎯 Why This Solution is Relevant',
+        content: [
+          { type: 'text', content: `This solution was found using the "${solution.searchStrategy}" search strategy.` },
+          { type: 'text', content: `It has a relevance score of ${solution.relevanceScore}%, indicating ${solution.relevanceScore >= 90 ? 'excellent' : solution.relevanceScore >= 70 ? 'good' : 'moderate'} match with your issue.` },
+          { type: 'text', content: ' ' },
+          { type: 'text', content: `The Stack Overflow community has given this question a score of ${solution.question.score}, and it has been viewed ${solution.question.view_count.toLocaleString()} times.` },
+          { type: 'text', content: solution.question.is_answered ? 'This question has an accepted answer, which typically indicates a working solution.' : 'While this question doesn\'t have an accepted answer yet, the community discussion may still provide valuable insights.' },
+        ],
+        level: 1
+      },
+      {
+        heading: '📝 How to Use This Solution',
+        content: [
+          { type: 'bullet', content: 'Click the link above to view the full Stack Overflow discussion' },
+          { type: 'bullet', content: 'Read through the accepted answer (if available) and top-voted answers' },
+          { type: 'bullet', content: 'Check the comments for additional insights and edge cases' },
+          { type: 'bullet', content: 'Adapt the solution to your specific use case' },
+          { type: 'bullet', content: 'Test thoroughly in your environment' },
+          { type: 'bullet', content: 'Consider contributing back if you find improvements' },
+        ],
+        level: 1
+      },
+      {
+        heading: '🔗 Quick Links',
+        content: [
+          { type: 'bold', content: 'Stack Overflow Solution:' },
+          { type: 'link', content: solution.question.link },
+          { type: 'text', content: ' ' },
+          { type: 'bold', content: 'GitHub Issue:' },
+          { type: 'link', content: analysis.issue.html_url },
+          { type: 'text', content: ' ' },
+          { type: 'bold', content: 'Search on Google:' },
+          { type: 'link', content: `https://www.google.com/search?q=${encodeURIComponent(solution.question.title)}` },
+        ],
+        level: 1
+      }
+    ],
+    metadata: {
+      author: 'Deep Issue Analyzer',
+      subject: `Solution ${solutionNumber} for Issue #${analysis.issue.number}`,
+      keywords: ['GitHub', 'Issue', 'Stack Overflow', 'Solution', ...solution.question.tags],
+      createdAt: new Date(),
+    }
+  };
 }
 
 function generatePDFContent(analysis: any): any {

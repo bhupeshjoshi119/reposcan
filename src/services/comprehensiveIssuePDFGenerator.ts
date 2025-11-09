@@ -88,7 +88,7 @@ export class ComprehensiveIssuePDFGenerator {
       
       console.log(`✅ Comprehensive PDF generated: ${filename}`);
       console.log(`   Size: ${sizeMB} MB`);
-      console.log(`   Pages: ${this.doc.internal.getNumberOfPages()}`);
+      console.log(`   Pages: ${this.doc.getNumberOfPages()}`);
       console.log(`   Issues analyzed: ${results.length}`);
       
       return filename;
@@ -732,7 +732,7 @@ export class ComprehensiveIssuePDFGenerator {
   }
 
   private addPageNumbersAndFooters(options: ComprehensivePDFOptions): void {
-    const pageCount = this.doc.internal.getNumberOfPages();
+    const pageCount = this.doc.getNumberOfPages();
     
     for (let i = 1; i <= pageCount; i++) {
       this.doc.setPage(i);

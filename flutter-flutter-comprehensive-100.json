@@ -1,0 +1,889 @@
+[
+  {
+    "issueNumber": 178206,
+    "title": "As stated above, flutter itself has not plans for this but open harmony support is already available through https://gitee.com/openharmony-sig/flutter_flutter",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178206",
+    "createdAt": "2025-11-08T20:28:20Z",
+    "updatedAt": "2025-11-09T00:15:05Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178204,
+    "title": "TextEditingController listener is triggered on tap",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178204",
+    "createdAt": "2025-11-08T17:07:57Z",
+    "updatedAt": "2025-11-08T17:07:57Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178200,
+    "title": "build method running more than expected",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178200",
+    "createdAt": "2025-11-08T13:58:20Z",
+    "updatedAt": "2025-11-08T13:58:20Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178199,
+    "title": "无法显示设备(Cannot Show Devices)",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178199",
+    "createdAt": "2025-11-08T11:40:51Z",
+    "updatedAt": "2025-11-08T13:53:02Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178198,
+    "title": "Flutter desktop stops rebuilding when minimized",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178198",
+    "createdAt": "2025-11-08T11:01:05Z",
+    "updatedAt": "2025-11-08T17:40:20Z",
+    "comments": 7,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178195,
+    "title": "XCode26.1 upgrade and flutter macOS were broken",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178195",
+    "createdAt": "2025-11-08T08:15:50Z",
+    "updatedAt": "2025-11-08T08:15:50Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178193,
+    "title": "[shared_preferences] Why no getKeys() for SharedPreferencesWithCache?",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178193",
+    "createdAt": "2025-11-08T04:51:31Z",
+    "updatedAt": "2025-11-08T05:13:43Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178189,
+    "title": "Android pointer up/down events sent to platform views may include duplicate events or use inconsistent pointer IDs",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178189",
+    "createdAt": "2025-11-08T01:02:43Z",
+    "updatedAt": "2025-11-08T01:02:43Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178180,
+    "title": "having issue to connect pdf externally,",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178180",
+    "createdAt": "2025-11-07T21:02:04Z",
+    "updatedAt": "2025-11-09T00:17:00Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "r: invalid"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178172,
+    "title": "[web] No way to set the placeholderMessage value",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178172",
+    "createdAt": "2025-11-07T19:09:52Z",
+    "updatedAt": "2025-11-07T19:11:09Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "a: accessibility",
+      "platform-web",
+      "P1",
+      "team-web",
+      "triaged-web",
+      "fyi-accessibility"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178171,
+    "title": "[tool_crash] FormatException",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178171",
+    "createdAt": "2025-11-07T19:05:22Z",
+    "updatedAt": "2025-11-07T19:05:22Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178169,
+    "title": "Release 3.39 beta",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178169",
+    "createdAt": "2025-11-07T17:47:25Z",
+    "updatedAt": "2025-11-07T23:36:54Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178168,
+    "title": "linux-17 lost external connection from the phone device.",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178168",
+    "createdAt": "2025-11-07T17:06:40Z",
+    "updatedAt": "2025-11-07T21:30:44Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "team-infra",
+      "infra: device lab"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178161,
+    "title": "Cannot run on Android Emulator (AS Otter)",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178161",
+    "createdAt": "2025-11-07T14:10:54Z",
+    "updatedAt": "2025-11-07T14:10:54Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178160,
+    "title": "Flutter Version Cache Corruption with App Repository URL",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178160",
+    "createdAt": "2025-11-07T13:46:30Z",
+    "updatedAt": "2025-11-07T13:46:30Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178159,
+    "title": "`ListView` bug when `extendBodyBehindAppBar` and `extendBody` is `true`",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178159",
+    "createdAt": "2025-11-07T13:17:43Z",
+    "updatedAt": "2025-11-07T13:17:57Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178155,
+    "title": "Bad UTF-8 encoding (U+FFFD; REPLACEMENT CHARACTER) found while decoding string: flutter: [BleCommunicationService]",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178155",
+    "createdAt": "2025-11-07T11:30:45Z",
+    "updatedAt": "2025-11-07T12:47:54Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "r: duplicate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178154,
+    "title": "Improve navigation order for Screenreaders when using Slivers to serve Material Guidelines",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178154",
+    "createdAt": "2025-11-07T11:15:30Z",
+    "updatedAt": "2025-11-07T13:15:09Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178153,
+    "title": "debugPrintHitTestResults prints stuff shrinked",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178153",
+    "createdAt": "2025-11-07T10:37:33Z",
+    "updatedAt": "2025-11-07T12:13:48Z",
+    "comments": 2,
+    "reactions": 2,
+    "labels": [
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178152,
+    "title": "New web dev proxy does not proxy query string",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178152",
+    "createdAt": "2025-11-07T09:35:52Z",
+    "updatedAt": "2025-11-07T13:12:32Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178151,
+    "title": "[tool_crash] DartDevelopmentServiceException",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178151",
+    "createdAt": "2025-11-07T09:20:19Z",
+    "updatedAt": "2025-11-07T12:14:42Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "c: crash",
+      "tool",
+      "team-tool"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178145,
+    "title": "[DraggableScrollableSheet] Unclear assertion in the framework",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178145",
+    "createdAt": "2025-11-07T00:16:45Z",
+    "updatedAt": "2025-11-07T08:34:20Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "r: duplicate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178137,
+    "title": "[tool_crash] FileSystemException: Failed to decode data using encoding 'utf-8', null",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178137",
+    "createdAt": "2025-11-06T22:08:11Z",
+    "updatedAt": "2025-11-07T07:33:35Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "waiting for customer response",
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178136,
+    "title": "`PlatformView.onFlutterViewAttached()` called multiple times for single instance on Android",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178136",
+    "createdAt": "2025-11-06T21:46:54Z",
+    "updatedAt": "2025-11-07T08:47:51Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "platform-android",
+      "engine",
+      "a: platform-views",
+      "has reproducible steps",
+      "team-android",
+      "found in release: 3.35",
+      "found in release: 3.38"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178129,
+    "title": "[packages] `drawImageScaled` is deprecated",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178129",
+    "createdAt": "2025-11-06T20:06:42Z",
+    "updatedAt": "2025-11-06T20:06:42Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "p: camera",
+      "p: image_picker",
+      "package",
+      "c: tech-debt",
+      "team-web",
+      "p: deprecated api"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178128,
+    "title": "Flutter Arch Linux Web-server Problem!",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178128",
+    "createdAt": "2025-11-06T20:04:26Z",
+    "updatedAt": "2025-11-07T07:27:17Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "r: invalid"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178126,
+    "title": "Codeshare Tooltip",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178126",
+    "createdAt": "2025-11-06T19:53:50Z",
+    "updatedAt": "2025-11-06T19:54:33Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "design doc"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178124,
+    "title": "PR should not be merged if Google Testing is pending or failing",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178124",
+    "createdAt": "2025-11-06T19:48:38Z",
+    "updatedAt": "2025-11-07T18:33:30Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "team-infra"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178123,
+    "title": "[pointer_interceptor] `dart:html` is deprecated",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178123",
+    "createdAt": "2025-11-06T19:38:52Z",
+    "updatedAt": "2025-11-06T19:38:52Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "package",
+      "c: tech-debt",
+      "p: pointer_interceptor",
+      "team-web",
+      "p: deprecated api"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178122,
+    "title": "linux-65 lost external connection from the phone device.",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178122",
+    "createdAt": "2025-11-06T19:19:59Z",
+    "updatedAt": "2025-11-06T21:23:18Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "team-infra",
+      "infra: device lab"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178120,
+    "title": "[vector_graphics_compiler] `scaled` and `translate` are deprecated",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178120",
+    "createdAt": "2025-11-06T18:39:39Z",
+    "updatedAt": "2025-11-06T19:35:10Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "package",
+      "c: tech-debt",
+      "team-engine",
+      "p: deprecated api",
+      "p: vector_graphics"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178114,
+    "title": "misiing",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178114",
+    "createdAt": "2025-11-06T17:22:18Z",
+    "updatedAt": "2025-11-06T18:10:56Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "r: invalid"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178110,
+    "title": "Cursor and text field height issues when `TextEditingController` mixes text sizes",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178110",
+    "createdAt": "2025-11-06T14:29:06Z",
+    "updatedAt": "2025-11-07T09:37:57Z",
+    "comments": 3,
+    "reactions": 1,
+    "labels": [
+      "a: text input",
+      "framework",
+      "has reproducible steps",
+      "team-text-input",
+      "found in release: 3.35",
+      "found in release: 3.38"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178109,
+    "title": "Flutter Web (Chrome browser) - TextFormField losing focus after it goes to background, for example on a tab switch",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178109",
+    "createdAt": "2025-11-06T14:19:39Z",
+    "updatedAt": "2025-11-07T08:03:46Z",
+    "comments": 4,
+    "reactions": 0,
+    "labels": [
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178137,
+    "title": "[tool_crash] FileSystemException: Failed to decode data using encoding 'utf-8', null",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178137",
+    "createdAt": "2025-11-06T22:08:11Z",
+    "updatedAt": "2025-11-07T07:33:35Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "waiting for customer response",
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178136,
+    "title": "`PlatformView.onFlutterViewAttached()` called multiple times for single instance on Android",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178136",
+    "createdAt": "2025-11-06T21:46:54Z",
+    "updatedAt": "2025-11-07T08:47:51Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "platform-android",
+      "engine",
+      "a: platform-views",
+      "has reproducible steps",
+      "team-android",
+      "found in release: 3.35",
+      "found in release: 3.38"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178129,
+    "title": "[packages] `drawImageScaled` is deprecated",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178129",
+    "createdAt": "2025-11-06T20:06:42Z",
+    "updatedAt": "2025-11-06T20:06:42Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "p: camera",
+      "p: image_picker",
+      "package",
+      "c: tech-debt",
+      "team-web",
+      "p: deprecated api"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178128,
+    "title": "Flutter Arch Linux Web-server Problem!",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178128",
+    "createdAt": "2025-11-06T20:04:26Z",
+    "updatedAt": "2025-11-07T07:27:17Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "r: invalid"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178126,
+    "title": "Codeshare Tooltip",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178126",
+    "createdAt": "2025-11-06T19:53:50Z",
+    "updatedAt": "2025-11-06T19:54:33Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "design doc"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178124,
+    "title": "PR should not be merged if Google Testing is pending or failing",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178124",
+    "createdAt": "2025-11-06T19:48:38Z",
+    "updatedAt": "2025-11-07T18:33:30Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "team-infra"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178123,
+    "title": "[pointer_interceptor] `dart:html` is deprecated",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178123",
+    "createdAt": "2025-11-06T19:38:52Z",
+    "updatedAt": "2025-11-06T19:38:52Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "package",
+      "c: tech-debt",
+      "p: pointer_interceptor",
+      "team-web",
+      "p: deprecated api"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178122,
+    "title": "linux-65 lost external connection from the phone device.",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178122",
+    "createdAt": "2025-11-06T19:19:59Z",
+    "updatedAt": "2025-11-06T21:23:18Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "team-infra",
+      "infra: device lab"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178120,
+    "title": "[vector_graphics_compiler] `scaled` and `translate` are deprecated",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178120",
+    "createdAt": "2025-11-06T18:39:39Z",
+    "updatedAt": "2025-11-06T19:35:10Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "package",
+      "c: tech-debt",
+      "team-engine",
+      "p: deprecated api",
+      "p: vector_graphics"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178114,
+    "title": "misiing",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178114",
+    "createdAt": "2025-11-06T17:22:18Z",
+    "updatedAt": "2025-11-06T18:10:56Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "r: invalid"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178110,
+    "title": "Cursor and text field height issues when `TextEditingController` mixes text sizes",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178110",
+    "createdAt": "2025-11-06T14:29:06Z",
+    "updatedAt": "2025-11-07T09:37:57Z",
+    "comments": 3,
+    "reactions": 1,
+    "labels": [
+      "a: text input",
+      "framework",
+      "has reproducible steps",
+      "team-text-input",
+      "found in release: 3.35",
+      "found in release: 3.38"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178109,
+    "title": "Flutter Web (Chrome browser) - TextFormField losing focus after it goes to background, for example on a tab switch",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178109",
+    "createdAt": "2025-11-06T14:19:39Z",
+    "updatedAt": "2025-11-07T08:03:46Z",
+    "comments": 4,
+    "reactions": 0,
+    "labels": [
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178108,
+    "title": "[Android][INK]Stylus stroke offset in Jetpack Compose embedded via AndroidView — stroke drawn in wrong position during motion using INK API - InProgressStrokesView",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178108",
+    "createdAt": "2025-11-06T14:18:16Z",
+    "updatedAt": "2025-11-07T08:12:26Z",
+    "comments": 2,
+    "reactions": 0,
+    "labels": [
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178104,
+    "title": "[tool_crash] FileSystemException: Cannot open file, OS Error: No such file or directory, errno = 2",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178104",
+    "createdAt": "2025-11-06T10:59:23Z",
+    "updatedAt": "2025-11-06T13:11:37Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "waiting for customer response",
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178103,
+    "title": "Failed run and build app on Android simulator device by Gradle.",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178103",
+    "createdAt": "2025-11-06T10:10:15Z",
+    "updatedAt": "2025-11-06T12:21:56Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "r: duplicate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178100,
+    "title": "[in_app_purchase][iOS]: Incorrect currency symbol displayed in In-App Purchase ProductDetails on UK locale",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178100",
+    "createdAt": "2025-11-06T09:31:09Z",
+    "updatedAt": "2025-11-07T11:18:25Z",
+    "comments": 5,
+    "reactions": 1,
+    "labels": [
+      "platform-ios",
+      "p: in_app_purchase",
+      "package",
+      "team-ios"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178099,
+    "title": "TextField intrinsic width does not take label into account",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178099",
+    "createdAt": "2025-11-06T09:09:04Z",
+    "updatedAt": "2025-11-07T13:29:04Z",
+    "comments": 3,
+    "reactions": 0,
+    "labels": [
+      "a: text input",
+      "framework",
+      "f: material design",
+      "has reproducible steps",
+      "r: fixed",
+      "team-text-input",
+      "found in release: 3.35",
+      "found in release: 3.38"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178097,
+    "title": "FlutterRenderer causes Activity instance leak",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178097",
+    "createdAt": "2025-11-06T07:47:56Z",
+    "updatedAt": "2025-11-07T10:26:02Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "r: invalid"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178096,
+    "title": "Weird numeric keyboard on iPadOS 26/26.1",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178096",
+    "createdAt": "2025-11-06T07:26:18Z",
+    "updatedAt": "2025-11-07T13:33:55Z",
+    "comments": 12,
+    "reactions": 0,
+    "labels": [
+      "a: text input",
+      "e: device-specific",
+      "platform-ios",
+      "framework",
+      "engine",
+      "e: OS-version specific",
+      "team-ios"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178091,
+    "title": "[tool_crash] FileSystemException: Cannot open file, OS Error: No such file or directory, errno = 2",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178091",
+    "createdAt": "2025-11-06T02:46:13Z",
+    "updatedAt": "2025-11-06T10:19:43Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "r: duplicate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178090,
+    "title": "[Crash] Flutter 3.35.2 app crash on POCO F7 (Android 15 / HyperOS 2.0.203.0)",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178090",
+    "createdAt": "2025-11-06T02:27:11Z",
+    "updatedAt": "2025-11-06T10:16:44Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "waiting for customer response",
+      "in triage"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178087,
+    "title": "linux-17 lost external connection from the phone device.",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178087",
+    "createdAt": "2025-11-06T01:17:22Z",
+    "updatedAt": "2025-11-06T01:22:35Z",
+    "comments": 1,
+    "reactions": 0,
+    "labels": [
+      "team-infra",
+      "infra: device lab"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178086,
+    "title": "Dialogs and dismissible overlays close immediately when opened from buttons in upper screen area on iPadOS 26.1",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178086",
+    "createdAt": "2025-11-06T00:50:49Z",
+    "updatedAt": "2025-11-06T10:14:10Z",
+    "comments": 2,
+    "reactions": 4,
+    "labels": [
+      "r: duplicate"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178082,
+    "title": "[tool_crash] error parsing (valid) IPv6 address for web run server host",
+    "state": "closed",
+    "url": "https://github.com/flutter/flutter/issues/178082",
+    "createdAt": "2025-11-05T22:03:13Z",
+    "updatedAt": "2025-11-07T06:06:14Z",
+    "comments": 0,
+    "reactions": 0,
+    "labels": [
+      "c: crash",
+      "tool",
+      "platform-web",
+      "r: fixed",
+      "team-tool"
+    ],
+    "stackOverflowSolutions": []
+  },
+  {
+    "issueNumber": 178076,
+    "title": "Would like a --trace option to `flutter build`",
+    "state": "open",
+    "url": "https://github.com/flutter/flutter/issues/178076",
+    "createdAt": "2025-11-05T20:37:09Z",
+    "updatedAt": "2025-11-06T05:10:53Z",
+    "comments": 2,
+    "reactions": 1,
+    "labels": [
+      "c: new feature",
+      "tool",
+      "c: proposal",
+      "a: build",
+      "team-tool"
+    ],
+    "stackOverflowSolutions": []
+  }
+]
