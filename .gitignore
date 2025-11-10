@@ -37,3 +37,7 @@ dist-ssr
 *.pem
 secrets/
 config/secrets.json
+
+# Internal planning and notes (not for hackathon submission)
+sponsor.md
+WELLNESS_AI_PROJECT_DESCRIPTION.md
