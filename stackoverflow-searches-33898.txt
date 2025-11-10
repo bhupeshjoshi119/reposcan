@@ -1,0 +1,104 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║              Multi-Platform Search Strategies                               ║
+║         Stack Overflow + GeeksforGeeks + Google                             ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Issue #33898: Support for Custom Metadata Hydrators in Text Splitters
+URL: https://github.com/langchain-ai/langchain/issues/33898
+State: OPEN
+Generated: 11/9/2025, 7:51:33 PM
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Strategy 1: Technology + Title Keywords
+Platform: Stack Overflow
+───────────────────────────────────────────────────────────────────────────────
+Query: python Support Custom Metadata Hydrators Text
+URL: https://stackoverflow.com/search?q=python%20Support%20Custom%20Metadata%20Hydrators%20Text
+Keywords: python, Support, Custom, Metadata, Hydrators, Text
+
+Strategy 2: Technology + Code Term
+Platform: Stack Overflow
+───────────────────────────────────────────────────────────────────────────────
+Query: python charactertextsplitter
+URL: https://stackoverflow.com/search?q=python%20charactertextsplitter
+Keywords: python, charactertextsplitter
+
+Strategy 3: Action + Technology + Problem
+Platform: Stack Overflow
+───────────────────────────────────────────────────────────────────────────────
+Query: add python Support for Custom
+URL: https://stackoverflow.com/search?q=add%20python%20Support%20for%20Custom
+Keywords: add, python, Support for Custom
+
+Strategy 4: Technology + Label
+Platform: Stack Overflow
+───────────────────────────────────────────────────────────────────────────────
+Query: python feature request
+URL: https://stackoverflow.com/search?q=python%20feature%20request
+Keywords: python, feature request
+
+Strategy 5: Full Title Search
+Platform: Stack Overflow
+───────────────────────────────────────────────────────────────────────────────
+Query: Support for Custom Metadata Hydrators in Text Splitters
+URL: https://stackoverflow.com/search?q=Support%20for%20Custom%20Metadata%20Hydrators%20in%20Text%20Splitters
+Keywords: Support for Custom Metadata Hydrators in Text Splitters
+
+Strategy 6: Technology Tags
+Platform: Stack Overflow
+───────────────────────────────────────────────────────────────────────────────
+Query: python api build
+URL: https://stackoverflow.com/questions/tagged/python+api+build
+Keywords: python, api, build
+
+Strategy 7: Google (Stack Overflow only)
+Platform: Google
+───────────────────────────────────────────────────────────────────────────────
+Query: site:stackoverflow.com Support for Custom Metadata Hydrators in Text Splitters
+URL: https://www.google.com/search?q=site%3Astackoverflow.com%20Support%20for%20Custom%20Metadata%20Hydrators%20in%20Text%20Splitters
+Keywords: Support for Custom Metadata Hydrators in Text Splitters
+
+Strategy 8: GeeksforGeeks - Technology + Problem
+Platform: GeeksforGeeks
+───────────────────────────────────────────────────────────────────────────────
+Query: python Support Custom Metadata Hydrators
+URL: https://www.geeksforgeeks.org/?s=python%20Support%20Custom%20Metadata%20Hydrators
+Keywords: python, Support, Custom, Metadata, Hydrators
+
+Strategy 9: GeeksforGeeks - Tutorial/Implementation
+Platform: GeeksforGeeks
+───────────────────────────────────────────────────────────────────────────────
+Query: add python tutorial
+URL: https://www.geeksforgeeks.org/?s=add%20python%20tutorial
+Keywords: add, python, tutorial
+
+Strategy 10: GeeksforGeeks - Code Examples
+Platform: GeeksforGeeks
+───────────────────────────────────────────────────────────────────────────────
+Query: python charactertextsplitter example
+URL: https://www.geeksforgeeks.org/?s=python%20charactertextsplitter%20example
+Keywords: python, charactertextsplitter, example
+
+Strategy 11: Google (GeeksforGeeks only)
+Platform: Google
+───────────────────────────────────────────────────────────────────────────────
+Query: site:geeksforgeeks.org Support for Custom Metadata Hydrators in Text Splitters
+URL: https://www.google.com/search?q=site%3Ageeksforgeeks.org%20Support%20for%20Custom%20Metadata%20Hydrators%20in%20Text%20Splitters
+Keywords: Support for Custom Metadata Hydrators in Text Splitters
+
+═══════════════════════════════════════════════════════════════════════════════
+
+How to use:
+1. Copy any URL above
+2. Open in your browser
+3. Search for solutions on multiple platforms:
+   📚 Stack Overflow - Community Q&A and solutions
+   💚 GeeksforGeeks - Tutorials, examples, and implementations
+   🌐 Google - Comprehensive site-specific search
+4. Try different strategies if first one doesn't work
+5. GeeksforGeeks is great for learning and requirement gathering
+
+Built with ❤️  for developers.

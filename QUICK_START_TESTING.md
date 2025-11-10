@@ -510,3 +510,7 @@ npx tsx test-solution-pdfs.ts
    Perfect! Now let me clean up the test file and create a summary document:
 
     rm -f test-solution-pdfs.ts
+
+Let me search for issues with actual solutions:
+
+cat facebook-react-comprehensive-150.json | jq '.[] | select(.stackOverflowSolutions | length > 0) | {issueNumber, title, solutionCount: (.stackOverflowSolutions | length)}' | head -50

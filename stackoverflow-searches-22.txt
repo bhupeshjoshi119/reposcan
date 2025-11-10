@@ -1,0 +1,52 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║              Stack Overflow Search Strategies                               ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Issue #22: Python game
+URL: https://github.com/asweigart/PythonStdioGames/issues/22
+State: OPEN
+Generated: 11/9/2025, 9:10:54 AM
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Strategy 1: Technology + Title Keywords
+───────────────────────────────────────────────────────────────────────────────
+Query: python Python game
+URL: https://stackoverflow.com/search?q=python%20Python%20game
+Keywords: python, Python, game
+
+Strategy 2: Action + Technology + Problem
+───────────────────────────────────────────────────────────────────────────────
+Query: test python Python game
+URL: https://stackoverflow.com/search?q=test%20python%20Python%20game
+Keywords: test, python, Python game
+
+Strategy 3: Full Title Search
+───────────────────────────────────────────────────────────────────────────────
+Query: Python game
+URL: https://stackoverflow.com/search?q=Python%20game
+Keywords: Python game
+
+Strategy 4: Technology Tags
+───────────────────────────────────────────────────────────────────────────────
+Query: python test
+URL: https://stackoverflow.com/questions/tagged/python+test
+Keywords: python, test
+
+Strategy 5: Google (Stack Overflow only)
+───────────────────────────────────────────────────────────────────────────────
+Query: site:stackoverflow.com Python game
+URL: https://www.google.com/search?q=site%3Astackoverflow.com%20Python%20game
+Keywords: Python game
+
+═══════════════════════════════════════════════════════════════════════════════
+
+How to use:
+1. Copy any URL above
+2. Open in your browser
+3. Search Stack Overflow for solutions
+4. Try different strategies if first one doesn't work
+
+Built with ❤️  for developers.

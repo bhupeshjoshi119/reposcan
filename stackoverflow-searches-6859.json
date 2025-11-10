@@ -1,0 +1,96 @@
+{
+  "issue": {
+    "number": 6859,
+    "title": "[ Bug ]  License Key Validation Failed dialog....  Commercial license incorrectly flagged as expired",
+    "url": "https://github.com/PySimpleGUI/PySimpleGUI/issues/6859",
+    "state": "open",
+    "comments": 0,
+    "labels": [
+      "Done - Install Dev Build (see docs for how)",
+      "Port - TK",
+      "PySimpleGUI 5",
+      "License"
+    ]
+  },
+  "searchStrategies": [
+    {
+      "strategyNumber": 1,
+      "strategyName": "Technology + Title Keywords",
+      "query": "python License Validation Failed dialog.... Commercial",
+      "url": "https://stackoverflow.com/search?q=python%20License%20Validation%20Failed%20dialog....%20Commercial",
+      "keywords": [
+        "python",
+        "License",
+        "Validation",
+        "Failed",
+        "dialog....",
+        "Commercial"
+      ]
+    },
+    {
+      "strategyNumber": 2,
+      "strategyName": "Technology + Code Term",
+      "query": "python sg.main_get_debug_data()",
+      "url": "https://stackoverflow.com/search?q=python%20sg.main_get_debug_data()",
+      "keywords": [
+        "python",
+        "sg.main_get_debug_data()"
+      ]
+    },
+    {
+      "strategyNumber": 3,
+      "strategyName": "Action + Technology + Problem",
+      "query": "fix python [ Bug ]",
+      "url": "https://stackoverflow.com/search?q=fix%20python%20%5B%20Bug%20%5D",
+      "keywords": [
+        "fix",
+        "python",
+        "[ Bug ]"
+      ]
+    },
+    {
+      "strategyNumber": 4,
+      "strategyName": "Technology + Label",
+      "query": "python Done - Install Dev Build (see docs for how)",
+      "url": "https://stackoverflow.com/search?q=python%20Done%20-%20Install%20Dev%20Build%20(see%20docs%20for%20how)",
+      "keywords": [
+        "python",
+        "Done - Install Dev Build (see docs for how)"
+      ]
+    },
+    {
+      "strategyNumber": 5,
+      "strategyName": "Full Title Search",
+      "query": "[ Bug ]  License Key Validation Failed dialog....  Commercial license incorrectly flagged as expired",
+      "url": "https://stackoverflow.com/search?q=%5B%20Bug%20%5D%20%20License%20Key%20Validation%20Failed%20dialog....%20%20Commercial%20license%20incorrectly%20flagged%20as%20expired",
+      "keywords": [
+        "[ Bug ]  License Key Validation Failed dialog....  Commercial license incorrectly flagged as expired"
+      ]
+    },
+    {
+      "strategyNumber": 6,
+      "strategyName": "Technology Tags",
+      "query": "python go build",
+      "url": "https://stackoverflow.com/questions/tagged/python+go+build",
+      "keywords": [
+        "python",
+        "go",
+        "build"
+      ]
+    },
+    {
+      "strategyNumber": 7,
+      "strategyName": "Google (Stack Overflow only)",
+      "query": "site:stackoverflow.com [ Bug ]  License Key Validation Failed dialog....  Commercial license incorrectly flagged as expired",
+      "url": "https://www.google.com/search?q=site%3Astackoverflow.com%20%5B%20Bug%20%5D%20%20License%20Key%20Validation%20Failed%20dialog....%20%20Commercial%20license%20incorrectly%20flagged%20as%20expired",
+      "keywords": [
+        "[ Bug ]  License Key Validation Failed dialog....  Commercial license incorrectly flagged as expired"
+      ]
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-11-09T03:38:54.980Z",
+    "tool": "Stack Overflow Search Founder",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "issue": {
+    "number": 33883,
+    "title": "Strip message ID to improve cache performance",
+    "url": "https://github.com/langchain-ai/langchain/issues/33883",
+    "state": "open",
+    "comments": 0,
+    "labels": [
+      "core",
+      "feature request"
+    ]
+  },
+  "searchStrategies": [
+    {
+      "strategyNumber": 1,
+      "strategyName": "Technology + Title Keywords",
+      "platform": "stackoverflow",
+      "query": "api Strip message improve cache performance",
+      "url": "https://stackoverflow.com/search?q=api%20Strip%20message%20improve%20cache%20performance",
+      "keywords": [
+        "api",
+        "Strip",
+        "message",
+        "improve",
+        "cache",
+        "performance"
+      ]
+    },
+    {
+      "strategyNumber": 2,
+      "strategyName": "Technology + Code Term",
+      "platform": "stackoverflow",
+      "query": "api _strip_ids_from_messages",
+      "url": "https://stackoverflow.com/search?q=api%20_strip_ids_from_messages",
+      "keywords": [
+        "api",
+        "_strip_ids_from_messages"
+      ]
+    },
+    {
+      "strategyNumber": 3,
+      "strategyName": "Action + Technology + Problem",
+      "platform": "stackoverflow",
+      "query": "implement api Strip message ID",
+      "url": "https://stackoverflow.com/search?q=implement%20api%20Strip%20message%20ID",
+      "keywords": [
+        "implement",
+        "api",
+        "Strip message ID"
+      ]
+    },
+    {
+      "strategyNumber": 4,
+      "strategyName": "Technology + Label",
+      "platform": "stackoverflow",
+      "query": "api core",
+      "url": "https://stackoverflow.com/search?q=api%20core",
+      "keywords": [
+        "api",
+        "core"
+      ]
+    },
+    {
+      "strategyNumber": 5,
+      "strategyName": "Full Title Search",
+      "platform": "stackoverflow",
+      "query": "Strip message ID to improve cache performance",
+      "url": "https://stackoverflow.com/search?q=Strip%20message%20ID%20to%20improve%20cache%20performance",
+      "keywords": [
+        "Strip message ID to improve cache performance"
+      ]
+    },
+    {
+      "strategyNumber": 6,
+      "strategyName": "Technology Tags",
+      "platform": "stackoverflow",
+      "query": "api",
+      "url": "https://stackoverflow.com/questions/tagged/api",
+      "keywords": [
+        "api"
+      ]
+    },
+    {
+      "strategyNumber": 7,
+      "strategyName": "Google (Stack Overflow only)",
+      "platform": "google",
+      "query": "site:stackoverflow.com Strip message ID to improve cache performance",
+      "url": "https://www.google.com/search?q=site%3Astackoverflow.com%20Strip%20message%20ID%20to%20improve%20cache%20performance",
+      "keywords": [
+        "Strip message ID to improve cache performance"
+      ]
+    },
+    {
+      "strategyNumber": 8,
+      "strategyName": "GeeksforGeeks - How to Guide",
+      "platform": "geeksforgeeks",
+      "query": "How to Strip message improve cache in api",
+      "url": "https://www.geeksforgeeks.org/search/?gq=Strip+message+improve+cache+in+api",
+      "keywords": [
+        "api",
+        "Strip",
+        "message",
+        "improve",
+        "cache"
+      ]
+    },
+    {
+      "strategyNumber": 9,
+      "strategyName": "GeeksforGeeks - Implementation Tutorial",
+      "platform": "geeksforgeeks",
+      "query": "How to implement Strip message ID in api",
+      "url": "https://www.geeksforgeeks.org/search/?gq=implement+Strip+message+ID+api+tutorial",
+      "keywords": [
+        "implement",
+        "api",
+        "tutorial"
+      ]
+    },
+    {
+      "strategyNumber": 10,
+      "strategyName": "GeeksforGeeks - Code Examples",
+      "platform": "geeksforgeeks",
+      "query": "_strip_ids_from_messages example in api",
+      "url": "https://www.geeksforgeeks.org/search/?gq=_strip_ids_from_messages+example+in+api",
+      "keywords": [
+        "api",
+        "_strip_ids_from_messages",
+        "example"
+      ]
+    },
+    {
+      "strategyNumber": 11,
+      "strategyName": "GeeksforGeeks - Performance Optimization",
+      "platform": "geeksforgeeks",
+      "query": "How to improve Strip message ID to",
+      "url": "https://www.geeksforgeeks.org/search/?gq=improve+Strip+message+ID+to+api",
+      "keywords": [
+        "improve",
+        "performance",
+        "api"
+      ]
+    },
+    {
+      "strategyNumber": 12,
+      "strategyName": "Google (GeeksforGeeks only)",
+      "platform": "google",
+      "query": "site:geeksforgeeks.org Strip message ID to improve cache performance",
+      "url": "https://www.google.com/search?q=site%3Ageeksforgeeks.org%20Strip%20message%20ID%20to%20improve%20cache%20performance",
+      "keywords": [
+        "Strip message ID to improve cache performance"
+      ]
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-11-09T14:38:08.764Z",
+    "tool": "Multi-Platform Search Founder",
+    "version": "2.0.0",
+    "platforms": [
+      "stackoverflow",
+      "geeksforgeeks",
+      "google"
+    ]
+  }
+}

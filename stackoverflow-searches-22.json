@@ -1,0 +1,67 @@
+{
+  "issue": {
+    "number": 22,
+    "title": "Python game",
+    "url": "https://github.com/asweigart/PythonStdioGames/issues/22",
+    "state": "open",
+    "comments": 0,
+    "labels": []
+  },
+  "searchStrategies": [
+    {
+      "strategyNumber": 1,
+      "strategyName": "Technology + Title Keywords",
+      "query": "python Python game",
+      "url": "https://stackoverflow.com/search?q=python%20Python%20game",
+      "keywords": [
+        "python",
+        "Python",
+        "game"
+      ]
+    },
+    {
+      "strategyNumber": 2,
+      "strategyName": "Action + Technology + Problem",
+      "query": "test python Python game",
+      "url": "https://stackoverflow.com/search?q=test%20python%20Python%20game",
+      "keywords": [
+        "test",
+        "python",
+        "Python game"
+      ]
+    },
+    {
+      "strategyNumber": 3,
+      "strategyName": "Full Title Search",
+      "query": "Python game",
+      "url": "https://stackoverflow.com/search?q=Python%20game",
+      "keywords": [
+        "Python game"
+      ]
+    },
+    {
+      "strategyNumber": 4,
+      "strategyName": "Technology Tags",
+      "query": "python test",
+      "url": "https://stackoverflow.com/questions/tagged/python+test",
+      "keywords": [
+        "python",
+        "test"
+      ]
+    },
+    {
+      "strategyNumber": 5,
+      "strategyName": "Google (Stack Overflow only)",
+      "query": "site:stackoverflow.com Python game",
+      "url": "https://www.google.com/search?q=site%3Astackoverflow.com%20Python%20game",
+      "keywords": [
+        "Python game"
+      ]
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-11-09T03:40:54.809Z",
+    "tool": "Stack Overflow Search Founder",
+    "version": "1.0.0"
+  }
+}
