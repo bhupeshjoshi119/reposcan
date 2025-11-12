@@ -1,0 +1,39 @@
+{
+  "name": "@github-analyzer/lint-error",
+  "version": "1.0.0",
+  "description": "Lint error detection microservice for GitHub repositories",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "lint-error": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "tsx src/test.ts"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "code-quality",
+    "github",
+    "analyzer"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "commander": "^12.0.0",
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.16.5",
+    "tsx": "^4.20.6",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
