@@ -46,13 +46,32 @@ export const usePredictiveAnalysis = () => {
       // Simulate API call delay
       await new Promise(resolve => setTimeout(resolve, 2000));
 
-      // Fetch repository data from GitHub API
-      const repoResponse = await fetch(`https://api.github.com/repos/${repository.full_name}`);
-      const repoData = await repoResponse.json();
-
-      if (!repoResponse.ok) {
-        throw new Error("Repository not found or inaccessible");
+      // Fetch repository data from GitHub API with authentication and rate limiting
+      const { rateLimitedFetch } = await import('@/utils/rateLimitHandler');
+      const token = localStorage.getItem('github_access_token');
+      const headers: HeadersInit = {
+        'Accept': 'application/vnd.github.v3+json',
+      };
+      
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
       }
+
+      const repoResponse = await rateLimitedFetch(`https://api.github.com/repos/${repository.full_name}`, {
+        headers
+      });
+      
+      if (!repoResponse.ok) {
+        if (repoResponse.status === 403) {
+          throw new Error("API rate limit exceeded or repository access denied. Please try again later.");
+        } else if (repoResponse.status === 404) {
+          throw new Error("Repository not found or you don't have access to it.");
+        } else {
+          throw new Error(`GitHub API error: ${repoResponse.status} ${repoResponse.statusText}`);
+        }
+      }
+
+      const repoData = await repoResponse.json();
 
       // Generate prediction based on analysis type
       const result = await generatePrediction(repoData, analysisType, timeframe);

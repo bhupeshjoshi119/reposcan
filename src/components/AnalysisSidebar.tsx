@@ -14,7 +14,7 @@ import {
   Bug, 
   Star, 
   Eye,
-  Download,
+
   Sparkles,
   TrendingUp,
   AlertCircle,
@@ -43,8 +43,6 @@ interface Repository {
 interface AnalysisSidebarProps {
   repository: Repository;
   analysis: string | null;
-  onGenerateReport: () => void;
-  onComprehensiveAnalysis: () => void;
   onImageAnalysis: () => void;
   onPredictiveAnalysis: () => void;
   loading: boolean;
@@ -54,8 +52,6 @@ interface AnalysisSidebarProps {
 export const AnalysisSidebar = ({
   repository,
   analysis,
-  onGenerateReport,
-  onComprehensiveAnalysis,
   onImageAnalysis,
   onPredictiveAnalysis,
   loading,
@@ -111,23 +107,8 @@ export const AnalysisSidebar = ({
   ];
 
   const quickActions = [
-    {
-      title: "Generate Analysis",
-      description: "Comprehensive issue documentation",
-      icon: FileText,
-      action: onComprehensiveAnalysis,
-      disabled: loading,
-      variant: "default" as const,
-      primary: true
-    },
-    {
-      title: "Download PDF",
-      description: "Export detailed report",
-      icon: Download,
-      action: onGenerateReport,
-      disabled: !analysis || loading,
-      variant: "outline" as const
-    },
+
+
     {
       title: "Image Analysis",
       description: "Analyze repository images",
@@ -175,10 +156,7 @@ export const AnalysisSidebar = ({
                 <Button
                   key={index}
                   variant={action.variant}
-                  className={cn(
-                    "w-full justify-start h-auto p-3 text-left",
-                    action.primary && "bg-gradient-to-r from-primary to-accent hover:opacity-90"
-                  )}
+                  className="w-full justify-start h-auto p-3 text-left"
                   onClick={action.action}
                   disabled={action.disabled}
                 >
@@ -288,13 +266,16 @@ export const AnalysisSidebar = ({
 
       {/* Analytics Dashboard Dialog */}
       <Dialog open={dashboardOpen} onOpenChange={setDashboardOpen}>
-        <DialogContent className="max-w-4xl max-h-[90vh]">
+        <DialogContent className="max-w-4xl max-h-[90vh]" aria-describedby="analytics-dashboard-description">
           <DialogHeader>
             <DialogTitle className="flex items-center gap-2">
               <PieChart className="w-5 h-5" />
               Analytics Dashboard - {repository.full_name}
             </DialogTitle>
           </DialogHeader>
+          <div id="analytics-dashboard-description" className="sr-only">
+            Comprehensive analytics and metrics dashboard for repository insights
+          </div>
           <AnalyticsDashboard 
             repository={repository} 
             analysis={analysis}

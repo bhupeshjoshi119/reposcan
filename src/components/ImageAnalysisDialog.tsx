@@ -202,13 +202,16 @@ export const ImageAnalysisDialog = ({
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="max-w-4xl max-h-[90vh] flex flex-col">
+      <DialogContent className="max-w-4xl max-h-[90vh] flex flex-col" aria-describedby="image-analysis-description">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <ImageIcon className="w-5 h-5" />
             AI Image Analysis
           </DialogTitle>
         </DialogHeader>
+        <div id="image-analysis-description" className="sr-only">
+          Upload and analyze repository images with AI-powered insights
+        </div>
 
         <div className="flex-1 grid grid-cols-1 lg:grid-cols-2 gap-6 overflow-hidden">
           {/* Upload Section */}

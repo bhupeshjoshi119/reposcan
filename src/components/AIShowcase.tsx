@@ -1,0 +1,174 @@
+import { useState, useEffect } from 'react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { 
+  Brain, 
+  Code2, 
+  Zap, 
+  Shield, 
+  BarChart3, 
+  GitBranch,
+  Sparkles,
+  CheckCircle,
+  TrendingUp,
+  Users,
+  Clock,
+  Star
+} from 'lucide-react';
+
+interface AIShowcaseProps {
+  className?: string;
+}
+
+export const AIShowcase = ({ className }: AIShowcaseProps) => {
+  const [activeDemo, setActiveDemo] = useState(0);
+  const [metrics, setMetrics] = useState({
+    repositoriesForked: 1247,
+    aiAssistanceHours: 8934,
+    codeGenerated: 2.3,
+    bugsFixed: 456,
+    performanceGains: 34,
+  });
+
+  // Simulate real-time metrics updates
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setMetrics(prev => ({
+        repositoriesForked: prev.repositoriesForked + Math.floor(Math.random() * 3),
+        aiAssistanceHours: prev.aiAssistanceHours + Math.floor(Math.random() * 5),
+        codeGenerated: prev.codeGenerated + (Math.random() * 0.1),
+        bugsFixed: prev.bugsFixed + Math.floor(Math.random() * 2),
+        performanceGains: prev.performanceGains + (Math.random() * 0.5),
+      }));
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const aiFeatures = [
+    {
+      icon: Brain,
+      title: 'Intelligent Code Generation',
+      description: 'AI-powered code completion and generation with 95% accuracy',
+      metrics: `${metrics.codeGenerated.toFixed(1)}M lines generated`,
+      color: 'from-blue-500 to-purple-600',
+    },
+    {
+      icon: Shield,
+      title: 'Security Analysis',
+      description: 'Automated vulnerability detection and security recommendations',
+      metrics: `${metrics.bugsFixed} vulnerabilities fixed`,
+      color: 'from-green-500 to-emerald-600',
+    },
+    {
+      icon: Zap,
+      title: 'Performance Optimization',
+      description: 'AI-driven performance improvements and code optimization',
+      metrics: `${metrics.performanceGains.toFixed(1)}% average improvement`,
+      color: 'from-yellow-500 to-orange-600',
+    },
+    {
+      icon: BarChart3,
+      title: 'Development Analytics',
+      description: 'Real-time insights and development metrics tracking',
+      metrics: `${metrics.aiAssistanceHours.toLocaleString()} hours saved`,
+      color: 'from-pink-500 to-red-600',
+    },
+  ];
+
+  const platformStats = [
+    { label: 'Repositories Forked', value: metrics.repositoriesForked.toLocaleString(), icon: GitBranch },
+    { label: 'AI Assistance Hours', value: metrics.aiAssistanceHours.toLocaleString(), icon: Clock },
+    { label: 'Code Generated (Lines)', value: `${metrics.codeGenerated.toFixed(1)}M`, icon: Code2 },
+    { label: 'Active Developers', value: '12.4K', icon: Users },
+  ];
+
+  return (
+    <div className={`space-y-8 ${className}`}>
+      {/* Hero Section */}
+      <Card className="bg-gradient-to-br from-primary/10 via-accent/5 to-background border-primary/20">
+        <CardHeader className="text-center pb-4">
+          <div className="flex items-center justify-center gap-2 mb-4">
+            <Sparkles className="w-8 h-8 text-primary animate-pulse" />
+            <CardTitle className="text-3xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              AI-Powered Development Platform
+            </CardTitle>
+            <Sparkles className="w-8 h-8 text-accent animate-pulse" />
+          </div>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            Transform any GitHub repository into an AI-enhanced development environment with one click. 
+            Experience the future of coding with intelligent assistance, automated optimization, and real-time insights.
+          </p>
+        </CardHeader>
+        <CardContent>
+          {/* Real-time Platform Statistics */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {platformStats.map((stat, index) => (
+              <Card key={index} className="bg-background/50 border-border/50">
+                <CardContent className="p-4 text-center">
+                  <stat.icon className="w-6 h-6 mx-auto mb-2 text-primary" />
+                  <div className="text-2xl font-bold text-primary">{stat.value}</div>
+                  <div className="text-xs text-muted-foreground">{stat.label}</div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          {/* AI Features Showcase */}
+          <div className="grid md:grid-cols-2 gap-6">
+            {aiFeatures.map((feature, index) => (
+              <Card 
+                key={index} 
+                className={`relative overflow-hidden border-border/50 hover:border-primary/50 transition-all duration-300 cursor-pointer ${
+                  activeDemo === index ? 'ring-2 ring-primary/50' : ''
+                }`}
+                onClick={() => setActiveDemo(index)}
+              >
+                <div className={`absolute inset-0 bg-gradient-to-br ${feature.color} opacity-5`} />
+                <CardHeader className="relative">
+                  <div className="flex items-center gap-3">
+                    <div className={`p-2 rounded-lg bg-gradient-to-br ${feature.color}`}>
+                      <feature.icon className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-lg">{feature.title}</CardTitle>
+                      <Badge variant="secondary" className="mt-1">
+                        {feature.metrics}
+                      </Badge>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="relative">
+                  <p className="text-muted-foreground">{feature.description}</p>
+                  <div className="flex items-center gap-2 mt-3">
+                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <span className="text-sm text-green-600">Active & Optimized</span>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center mt-8 p-6 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border border-primary/20">
+            <h3 className="text-xl font-semibold mb-2">Ready to Experience AI-Powered Development?</h3>
+            <p className="text-muted-foreground mb-4">
+              Join thousands of developers who are already coding faster and smarter with AI assistance.
+            </p>
+            <div className="flex items-center justify-center gap-4">
+              <Button className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
+                <Star className="w-4 h-4 mr-2" />
+                Start Coding with AI
+              </Button>
+              <Button variant="outline">
+                <TrendingUp className="w-4 h-4 mr-2" />
+                View Analytics
+              </Button>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  );
+};

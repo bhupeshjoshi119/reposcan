@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { SearchBar } from "@/components/SearchBar";
 import { RepositoryGrid } from "@/components/RepositoryGrid";
+import { RepositoryList } from "@/components/RepositoryList";
+import { ViewToggle } from "@/components/ViewToggle";
 import { FilterBar } from "@/components/FilterBar";
 import { RepositoryDetailsDialog } from "@/components/RepositoryDetailsDialog";
 import { AdvancedSearchDialog } from "@/components/AdvancedSearchDialog";
@@ -10,6 +12,8 @@ import { ImageAnalysisDialog } from "@/components/ImageAnalysisDialog";
 import { PredictiveAnalysisDialog } from "@/components/PredictiveAnalysisDialog";
 import { FloatingActionButton } from "@/components/FloatingActionButton";
 import { NotificationCenter } from "@/components/NotificationCenter";
+import { AIShowcase } from "@/components/AIShowcase";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 import GitHubLogin from "@/components/GitHubLogin";
 import UserProfile from "@/components/UserProfile";
 import { useAuth } from "@/contexts/AuthContext";
@@ -21,6 +25,7 @@ import { Button } from "@/components/ui/button";
 import { useRepositoryBookmarks } from "@/hooks/useRepositoryBookmarks";
 import { useAISearch } from "@/hooks/useAISearch";
 import { useSearchHistory } from "@/hooks/useSearchHistory";
+import { useViewPreference } from "@/hooks/useViewPreference";
 import { useToast } from "@/hooks/use-toast";
 import {
   Sheet,
@@ -69,6 +74,8 @@ const Index = () => {
   const [predictiveAnalysisOpen, setPredictiveAnalysisOpen] = useState(false);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   
+  const { viewMode, setViewMode } = useViewPreference();
+  
   const { bookmarks, addBookmark, removeBookmark, isBookmarked } = useRepositoryBookmarks();
   const { enhanceSearch, enhancement } = useAISearch();
   const { addToHistory } = useSearchHistory();
@@ -100,7 +107,6 @@ const Index = () => {
       
       if (options?.searchMyRepos && isAuthenticated) {
         // Search user's repositories using GitHub Auth service
-        const { repositories: userRepos } = await import('@/hooks/useUserRepositories');
         // For now, we'll use a simple client-side filter
         // In a real app, you might want to implement server-side search
         const allUserRepos = await githubAuth.getUserRepositories({
@@ -160,7 +166,7 @@ const Index = () => {
     }
   };
 
-  const handleAnalyzeRepository = (repo: Repository) => {
+  const handleViewRepository = (repo: Repository) => {
     setSelectedRepository(repo);
     setDialogOpen(true);
   };
@@ -183,6 +189,60 @@ const Index = () => {
     });
   };
 
+  const handleForkAndCode = async (repo: Repository) => {
+    const loadingToast = toast({
+      title: "🚀 Forking Repository...",
+      description: "Setting up AI-powered development environment",
+    });
+
+    try {
+      // Enhanced fork with AI setup
+      const result = await githubAuth.forkRepository(repo.owner.login, repo.name, {
+        setupAI: true,
+        createBranch: 'ai-development',
+        addReadme: true,
+      });
+
+      // Dismiss loading toast
+      loadingToast.dismiss?.();
+
+      // Show success with metrics
+      toast({
+        title: "🎉 AI Development Environment Ready!",
+        description: `Forked ${repo.full_name} with AI setup in ${result.metrics.totalTime}ms. Ready for AI-powered coding!`,
+      });
+
+      // Get repository analytics for additional insights (optional)
+      try {
+        const analytics = await githubAuth.getRepositoryAnalytics(repo.owner.login, repo.name);
+        
+        // Show analytics toast
+        setTimeout(() => {
+          toast({
+            title: "📊 Repository Insights",
+            description: `${analytics.contributors} contributors, ${Object.keys(analytics.languages).length} languages, ${analytics.activity.length} recent commits`,
+          });
+        }, 2000);
+      } catch (analyticsError) {
+        console.warn('Could not fetch analytics (this is optional):', analyticsError);
+        // Don't show error to user as this is optional functionality
+      }
+
+      // Open the forked repository in a new tab
+      window.open(result.developmentUrl, '_blank');
+      
+    } catch (error) {
+      loadingToast.dismiss?.();
+      console.error('Error forking repository:', error);
+      
+      toast({
+        title: "Fork Failed",
+        description: error instanceof Error ? error.message : "Failed to fork repository. Please try again.",
+        variant: "destructive",
+      });
+    }
+  };
+
   const handleSidebarSearchClick = (query: string) => {
     handleSearch(query);
   };
@@ -190,7 +250,7 @@ const Index = () => {
   const handleSidebarBookmarkClick = (repoId: number) => {
     const repo = bookmarks.find(r => r.id === repoId);
     if (repo) {
-      handleAnalyzeRepository(repo);
+      handleViewRepository(repo);
     }
   };
 
@@ -234,7 +294,8 @@ const Index = () => {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <ErrorBoundary>
+      <div className="min-h-screen bg-background">
       {/* Desktop Sidebar */}
       <Sidebar
         onSearchHistoryClick={handleSidebarSearchClick}
@@ -279,8 +340,6 @@ const Index = () => {
         repository={selectedRepository}
         open={dialogOpen}
         onOpenChange={setDialogOpen}
-        onImageAnalysisClick={() => setImageAnalysisOpen(true)}
-        onPredictiveAnalysisClick={() => setPredictiveAnalysisOpen(true)}
       />
       <AdvancedSearchDialog
         open={advancedSearchOpen}
@@ -362,12 +421,15 @@ const Index = () => {
         {/* Results Section */}
         {repositories.length > 0 && (
           <div className="container mx-auto px-4 py-12">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
               <div className="text-sm text-muted-foreground">
                 Found {filteredRepositories.length} repositories
               </div>
               
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 flex-wrap">
+                {/* View Toggle */}
+                <ViewToggle view={viewMode} onViewChange={setViewMode} />
+                
                 {/* Comparison */}
                 <RepositoryComparison
                   selectedRepos={compareRepos}
@@ -380,7 +442,7 @@ const Index = () => {
                   <SheetTrigger asChild>
                     <Button variant="outline" className="gap-2">
                       <Bookmark className="w-4 h-4" />
-                      Bookmarks ({bookmarks.length})
+                      <span className="hidden sm:inline">Bookmarks</span> ({bookmarks.length})
                     </Button>
                   </SheetTrigger>
                   <SheetContent className="w-[400px] sm:w-[540px] overflow-y-auto">
@@ -396,14 +458,25 @@ const Index = () => {
                           No bookmarks yet. Save repositories to view them here.
                         </p>
                       ) : (
-                        <RepositoryGrid 
-                          repositories={bookmarks} 
-                          bookmarkedIds={new Set(bookmarks.map(r => r.id))}
-                          onBookmarkToggle={handleBookmarkToggle}
-                          onAnalyze={handleAnalyzeRepository}
-                          onCompareToggle={handleCompareToggle}
-                          compareIds={new Set(compareRepos.map(r => r.id))}
-                        />
+                        viewMode === "grid" ? (
+                          <RepositoryGrid 
+                            repositories={bookmarks} 
+                            bookmarkedIds={new Set(bookmarks.map(r => r.id))}
+                            onBookmarkToggle={handleBookmarkToggle}
+                            onCompareToggle={handleCompareToggle}
+                            compareIds={new Set(compareRepos.map(r => r.id))}
+                            onForkAndCode={handleForkAndCode}
+                          />
+                        ) : (
+                          <RepositoryList 
+                            repositories={bookmarks} 
+                            bookmarkedIds={new Set(bookmarks.map(r => r.id))}
+                            onBookmarkToggle={handleBookmarkToggle}
+                            onCompareToggle={handleCompareToggle}
+                            compareIds={new Set(compareRepos.map(r => r.id))}
+                            onForkAndCode={handleForkAndCode}
+                          />
+                        )
                       )}
                     </div>
                   </SheetContent>
@@ -426,30 +499,50 @@ const Index = () => {
             />
             
             <div className="mt-8">
-              <RepositoryGrid 
-                repositories={filteredRepositories} 
-                loading={loading}
-                bookmarkedIds={new Set(bookmarks.map(r => r.id))}
-                onBookmarkToggle={handleBookmarkToggle}
-                onAnalyze={handleAnalyzeRepository}
-                onCompareToggle={handleCompareToggle}
-                compareIds={new Set(compareRepos.map(r => r.id))}
-              />
+              {viewMode === "grid" ? (
+                <RepositoryGrid 
+                  repositories={filteredRepositories} 
+                  loading={loading}
+                  bookmarkedIds={new Set(bookmarks.map(r => r.id))}
+                  onBookmarkToggle={handleBookmarkToggle}
+                  onCompareToggle={handleCompareToggle}
+                  compareIds={new Set(compareRepos.map(r => r.id))}
+                  onForkAndCode={handleForkAndCode}
+                />
+              ) : (
+                <RepositoryList 
+                  repositories={filteredRepositories} 
+                  loading={loading}
+                  bookmarkedIds={new Set(bookmarks.map(r => r.id))}
+                  onBookmarkToggle={handleBookmarkToggle}
+                  onCompareToggle={handleCompareToggle}
+                  compareIds={new Set(compareRepos.map(r => r.id))}
+                  onForkAndCode={handleForkAndCode}
+                />
+              )}
             </div>
           </div>
         )}
 
-        {/* Empty State */}
+        {/* AI Showcase & Empty State */}
         {!loading && repositories.length === 0 && (
-          <div className="container mx-auto px-4 py-20 text-center">
-            <div className="max-w-md mx-auto space-y-4">
-              <div className="w-20 h-20 mx-auto rounded-full bg-secondary/50 flex items-center justify-center">
-                <Code2 className="w-10 h-10 text-muted-foreground" />
+          <div className="container mx-auto px-4 py-12">
+            {/* AI Showcase for Sponsors */}
+            <div className="mb-16">
+              <AIShowcase />
+            </div>
+            
+            {/* Empty State */}
+            <div className="text-center py-20">
+              <div className="max-w-md mx-auto space-y-4">
+                <div className="w-20 h-20 mx-auto rounded-full bg-secondary/50 flex items-center justify-center">
+                  <Code2 className="w-10 h-10 text-muted-foreground" />
+                </div>
+                <h3 className="text-xl font-semibold">Start Your AI-Powered Development Journey</h3>
+                <p className="text-muted-foreground">
+                  Search for any repository and transform it into an AI-enhanced development environment with one click
+                </p>
               </div>
-              <h3 className="text-xl font-semibold">Start Your Search</h3>
-              <p className="text-muted-foreground">
-                Enter a keyword to discover repositories, or search by username to find user projects
-              </p>
             </div>
           </div>
         )}
@@ -461,6 +554,7 @@ const Index = () => {
         />
       </div>
     </div>
+    </ErrorBoundary>
   );
 };
 

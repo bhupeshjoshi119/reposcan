@@ -1,8 +1,8 @@
 import { Repository } from "@/pages/Index";
-import { RepositoryCard } from "./RepositoryCard";
+import { RepositoryListItem } from "@/components/RepositoryListItem";
 import { Loader2 } from "lucide-react";
 
-interface RepositoryGridProps {
+interface RepositoryListProps {
   repositories: Repository[];
   loading?: boolean;
   bookmarkedIds?: Set<number>;
@@ -12,7 +12,7 @@ interface RepositoryGridProps {
   onForkAndCode?: (repo: Repository) => void;
 }
 
-export const RepositoryGrid = ({ 
+export const RepositoryList = ({ 
   repositories, 
   loading, 
   bookmarkedIds, 
@@ -20,7 +20,7 @@ export const RepositoryGrid = ({
   onCompareToggle,
   compareIds,
   onForkAndCode
-}: RepositoryGridProps) => {
+}: RepositoryListProps) => {
   if (loading) {
     return (
       <div className="flex items-center justify-center py-20">
@@ -38,9 +38,9 @@ export const RepositoryGrid = ({
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="space-y-4">
       {repositories.map((repo) => (
-        <RepositoryCard 
+        <RepositoryListItem 
           key={repo.id} 
           repository={repo}
           isBookmarked={bookmarkedIds?.has(repo.id)}

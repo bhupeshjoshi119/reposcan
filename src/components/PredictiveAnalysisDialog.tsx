@@ -67,13 +67,16 @@ export const PredictiveAnalysisDialog = ({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-6xl max-h-[90vh] flex flex-col">
+      <DialogContent className="max-w-6xl max-h-[90vh] flex flex-col" aria-describedby="predictive-analysis-description">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Brain className="w-5 h-5" />
             Predictive Analysis
           </DialogTitle>
         </DialogHeader>
+        <div id="predictive-analysis-description" className="sr-only">
+          AI-powered predictive analysis for repository trends and insights
+        </div>
 
         <div className="flex-1 grid grid-cols-1 lg:grid-cols-3 gap-6 overflow-hidden">
           {/* Configuration Panel */}

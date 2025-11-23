@@ -3,18 +3,17 @@ import { Repository } from "@/pages/Index";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Star, GitFork, Eye, Calendar, ExternalLink, Bookmark, Copy, Check, Sparkles, GitCompare, AlertCircle } from "lucide-react";
+import { Star, GitFork, Calendar, Bookmark, Copy, Check, GitCompare, AlertCircle, Code2, Loader2, Sparkles } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
 import { useToast } from "@/hooks/use-toast";
-import { PDFReportButton } from "./PDFReportButton";
 
 interface RepositoryCardProps {
   repository: Repository;
   isBookmarked?: boolean;
   onBookmarkToggle?: (repo: Repository) => void;
-  onAnalyze?: (repo: Repository) => void;
   onCompareToggle?: () => void;
   isInComparison?: boolean;
+  onForkAndCode?: (repo: Repository) => void;
 }
 
 const languageColors: Record<string, string> = {
@@ -67,11 +66,12 @@ export const RepositoryCard = ({
   repository, 
   isBookmarked, 
   onBookmarkToggle, 
-  onAnalyze,
   onCompareToggle,
-  isInComparison 
+  isInComparison,
+  onForkAndCode
 }: RepositoryCardProps) => {
   const [copied, setCopied] = useState(false);
+  const [isForking, setIsForking] = useState(false);
   const { toast } = useToast();
 
   const qualityScore = calculateQualityScore(repository);
@@ -178,26 +178,42 @@ export const RepositoryCard = ({
           <span>Updated {formatDistanceToNow(new Date(repository.updated_at), { addSuffix: true })}</span>
         </div>
 
+        {/* Primary Action */}
+        {onForkAndCode && (
+          <Button
+            onClick={async () => {
+              setIsForking(true);
+              try {
+                await onForkAndCode(repository);
+              } finally {
+                setIsForking(false);
+              }
+            }}
+            disabled={isForking}
+            className="w-full bg-gradient-to-r from-primary via-accent to-primary hover:opacity-90 transition-all duration-300 gap-2 relative overflow-hidden"
+            size="sm"
+          >
+            {isForking ? (
+              <>
+                <Loader2 className="w-4 h-4 animate-spin" />
+                Setting up AI Environment...
+              </>
+            ) : (
+              <>
+                <div className="flex items-center gap-2">
+                  <Code2 className="w-4 h-4" />
+                  <span>Fork & Code with AI</span>
+                  <Sparkles className="w-4 h-4 animate-pulse" />
+                </div>
+                {/* Animated background effect */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000" />
+              </>
+            )}
+          </Button>
+        )}
+
         {/* Quick Actions */}
         <div className="flex gap-2 pt-2 border-t border-border">
-          {onAnalyze && (
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => onAnalyze(repository)}
-              className="flex-1 gap-2 hover:bg-primary/10 hover:text-primary hover:border-primary"
-            >
-              <Sparkles className="w-4 h-4" />
-              AI Analyze
-            </Button>
-          )}
-          <PDFReportButton
-            repositoryUrl={repository.html_url}
-            repositoryName={repository.name}
-            githubToken={import.meta.env.VITE_GITHUB_TOKEN}
-            variant="outline"
-            size="sm"
-          />
           <Button
             variant="outline"
             size="sm"

@@ -61,7 +61,7 @@ export const Sidebar = ({
         ...(isAuthenticated ? [{ icon: GitBranch, label: "My Repositories", action: () => setShowMyRepos(true) }] : []),
         { icon: Upload, label: "Image Analysis", action: onImageAnalysisClick },
         { icon: Brain, label: "Predictive Analysis", action: onPredictiveAnalysisClick },
-        { icon: FileText, label: "Generate PDF Report", action: () => {} },
+        // { icon: FileText, label: "Generate PDF Report", action: () => {} },
       ]
     },
     {
@@ -187,26 +187,32 @@ export const Sidebar = ({
 
         {/* Settings Dialog */}
         <Dialog open={settingsOpen} onOpenChange={setSettingsOpen}>
-          <DialogContent className="max-w-4xl max-h-[90vh]">
+          <DialogContent className="max-w-4xl max-h-[90vh]" aria-describedby="settings-description">
             <DialogHeader>
               <DialogTitle className="flex items-center gap-2">
                 <Settings className="w-5 h-5" />
                 TechHub Settings
               </DialogTitle>
             </DialogHeader>
+            <div id="settings-description" className="sr-only">
+              Configure your TechHub preferences and account settings
+            </div>
             <SettingsPanel className="mt-4" />
           </DialogContent>
         </Dialog>
 
         {/* My Repositories Dialog */}
         <Dialog open={showMyRepos} onOpenChange={setShowMyRepos}>
-          <DialogContent className="max-w-4xl max-h-[90vh]">
+          <DialogContent className="max-w-4xl max-h-[90vh]" aria-describedby="repositories-description">
             <DialogHeader>
               <DialogTitle className="flex items-center gap-2">
                 <GitBranch className="w-5 h-5" />
                 My Repositories
               </DialogTitle>
             </DialogHeader>
+            <div id="repositories-description" className="sr-only">
+              Browse and manage your GitHub repositories
+            </div>
             <ScrollArea className="mt-4 max-h-[70vh]">
               <MyRepositories onRepositorySelect={(repo) => {
                 if (onRepositorySelect) {

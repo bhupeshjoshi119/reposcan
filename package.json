@@ -15,6 +15,7 @@
     "analyze-issue": "tsx src/cli/analyzeIssue.ts",
     "find-solutions": "tsx src/cli/find-solutions.ts",
     "auto-solutions": "tsx src/cli/auto-generate-solutions.ts",
+    "stackoverflow-finder": "tsx src/cli/stackoverflow-finder.ts",
     "verify-pdfs": "bash verify-pdfs.sh",
     "batch-analyze": "tsx src/cli/batchAnalyze.ts",
     "simple-analyze": "tsx src/cli/simple-analyze.ts",
