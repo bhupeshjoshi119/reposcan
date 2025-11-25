@@ -11,7 +11,7 @@ export const getEnvironment = () => {
     const hostname = window.location.hostname;
     
     // Production domain
-    if (hostname === 'open-repo-lens-backup.vercel.app') {
+    if (hostname === 'reposcan-one.vercel.app') {
       return 'production';
     }
     
@@ -39,15 +39,20 @@ export const getRedirectUri = () => {
   
   // Fallback to dynamic detection only if env var is not set
   if (typeof window === 'undefined') {
-    // Server-side rendering fallback
-    return 'https://open-repo-lens-backup.vercel.app/auth/callback';
+    // Server-side rendering fallback - use the correct production domain
+    return 'https://reposcan-one.vercel.app/auth/callback';
   }
   
   const hostname = window.location.hostname;
   
-  // Exact production domain match
-  if (hostname === 'open-repo-lens-backup.vercel.app') {
-    return 'https://open-repo-lens-backup.vercel.app/auth/callback';
+  // Production domain match (your actual deployed domain)
+  if (hostname === 'reposcan-one.vercel.app') {
+    return 'https://reposcan-one.vercel.app/auth/callback';
+  }
+  
+  // Handle other Vercel preview deployments
+  if (hostname.endsWith('.vercel.app')) {
+    return `https://${hostname}/auth/callback`;
   }
   
   // Local development (localhost with any port)
@@ -57,14 +62,14 @@ export const getRedirectUri = () => {
   
   // For any other domain, default to production URL
   // This prevents issues with unconfigured domains
-  return 'https://open-repo-lens-backup.vercel.app/auth/callback';
+  return 'https://reposcan-one.vercel.app/auth/callback';
 };
 
 export const getBaseUrl = () => {
   const env = getEnvironment();
   
   if (env === 'production') {
-    return 'https://open-repo-lens-backup.vercel.app';
+    return 'https://reposcan-one.vercel.app';
   }
   
   // Development

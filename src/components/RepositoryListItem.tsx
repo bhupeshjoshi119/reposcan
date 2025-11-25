@@ -3,7 +3,7 @@ import { Repository } from "@/pages/Index";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Star, GitFork, Calendar, Bookmark, Copy, Check, GitCompare, AlertCircle, Code2, Loader2, Sparkles } from "lucide-react";
+import { Star, GitFork, Calendar, Bookmark, Copy, Check, GitCompare, AlertCircle, Code2, Loader2, Sparkles, FileText } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
 import { useToast } from "@/hooks/use-toast";
 
@@ -15,6 +15,7 @@ interface RepositoryListItemProps {
   onCompareToggle?: () => void;
   isInComparison?: boolean;
   onForkAndCode?: (repo: Repository) => void;
+  onViewAnalysis?: (repo: Repository) => void;
 }
 
 const languageColors: Record<string, string> = {
@@ -69,7 +70,8 @@ export const RepositoryListItem = ({
   onBookmarkToggle, 
   onCompareToggle,
   isInComparison,
-  onForkAndCode
+  onForkAndCode,
+  onViewAnalysis
 }: RepositoryListItemProps) => {
   const [copied, setCopied] = useState(false);
   const [isForking, setIsForking] = useState(false);
@@ -217,6 +219,17 @@ export const RepositoryListItem = ({
 
             {/* Actions */}
             <div className="flex flex-wrap gap-2">
+              {onViewAnalysis && (
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => onViewAnalysis(repository)}
+                  className="gap-2 hover:bg-primary/10 hover:text-primary hover:border-primary"
+                >
+                  <FileText className="w-4 h-4" />
+                  Analysis
+                </Button>
+              )}
               <Button
                 variant="outline"
                 size="sm"

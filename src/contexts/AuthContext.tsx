@@ -31,6 +31,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   const isAuthenticated = user !== null;
 
+  // Development bypass - skip OAuth for local testing
+  const isDevelopment = import.meta.env.DEV;
+  const bypassAuth = isDevelopment && import.meta.env.VITE_BYPASS_AUTH !== 'false';
+
   useEffect(() => {
     initializeAuth();
   }, []);
@@ -39,7 +43,34 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     try {
       setIsLoading(true);
       
-      // Try to initialize with stored token
+      // Development bypass - create mock user for local testing
+      if (bypassAuth) {
+        console.log('🚀 Development mode: Bypassing OAuth authentication');
+        const mockUser: GitHubUser = {
+          id: 12345,
+          login: 'developer',
+          name: 'Local Developer',
+          email: 'dev@localhost.com',
+          avatar_url: 'https://github.com/github.png',
+          bio: 'Local development user for testing',
+          public_repos: 42,
+          followers: 100,
+          following: 50,
+        };
+        setUser(mockUser);
+        
+        // Initialize GitHub API with personal access token if available
+        const token = import.meta.env.GITHUB_TOKEN;
+        if (token) {
+          githubApi.setToken(token);
+          console.log('🔑 Using GitHub Personal Access Token for API calls');
+        }
+        
+        setIsLoading(false);
+        return;
+      }
+      
+      // Production OAuth flow
       if (githubAuth.initializeWithStoredToken()) {
         const userData = await githubAuth.getAuthenticatedUser();
         setUser(userData);
@@ -60,6 +91,12 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   };
 
   const login = () => {
+    // In development with bypass, user is already logged in
+    if (bypassAuth) {
+      console.log('🚀 Development mode: Already authenticated');
+      return;
+    }
+    
     const authUrl = githubAuth.getAuthUrl();
     window.location.href = authUrl;
   };

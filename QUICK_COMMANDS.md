@@ -1,6 +1,26 @@
 # 🚀 Quick Commands Reference
 
-## Find Solutions (NEW! 🎉)
+## Stack Overflow Finder (NEW! 🔍)
+
+```bash
+# Intelligent keyword detection and search strategies
+npm run stackoverflow-finder <github-issue-url>
+```
+
+**Example:**
+```bash
+npm run stackoverflow-finder https://github.com/langchain-ai/langchain/issues/33898
+```
+
+**What you get:**
+- 🔍 Keyword detection (errors, technologies, code terms)
+- 🎯 8 different search strategies
+- 🔗 Direct Stack Overflow links
+- 💾 Save searches to file
+
+---
+
+## Find Solutions (Interactive)
 
 ```bash
 # Interactive solution finder

@@ -14,6 +14,7 @@ import { FloatingActionButton } from "@/components/FloatingActionButton";
 import { NotificationCenter } from "@/components/NotificationCenter";
 import { AIShowcase } from "@/components/AIShowcase";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
+import { AnalysisReportDialog } from "@/components/AnalysisReportDialog";
 import GitHubLogin from "@/components/GitHubLogin";
 import UserProfile from "@/components/UserProfile";
 import { useAuth } from "@/contexts/AuthContext";
@@ -73,6 +74,8 @@ const Index = () => {
   const [imageAnalysisOpen, setImageAnalysisOpen] = useState(false);
   const [predictiveAnalysisOpen, setPredictiveAnalysisOpen] = useState(false);
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+  const [analysisReportOpen, setAnalysisReportOpen] = useState(false);
+  const [analysisRepository, setAnalysisRepository] = useState<Repository | null>(null);
   
   const { viewMode, setViewMode } = useViewPreference();
   
@@ -243,6 +246,11 @@ const Index = () => {
     }
   };
 
+  const handleViewAnalysis = (repo: Repository) => {
+    setAnalysisRepository(repo);
+    setAnalysisReportOpen(true);
+  };
+
   const handleSidebarSearchClick = (query: string) => {
     handleSearch(query);
   };
@@ -357,6 +365,11 @@ const Index = () => {
         onOpenChange={setPredictiveAnalysisOpen}
         repository={selectedRepository}
       />
+      <AnalysisReportDialog
+        repository={analysisRepository}
+        open={analysisReportOpen}
+        onOpenChange={setAnalysisReportOpen}
+      />
 
       {/* Main Content */}
       <div className="lg:ml-80 transition-all duration-300">
@@ -466,6 +479,7 @@ const Index = () => {
                             onCompareToggle={handleCompareToggle}
                             compareIds={new Set(compareRepos.map(r => r.id))}
                             onForkAndCode={handleForkAndCode}
+                            onViewAnalysis={handleViewAnalysis}
                           />
                         ) : (
                           <RepositoryList 
@@ -475,6 +489,7 @@ const Index = () => {
                             onCompareToggle={handleCompareToggle}
                             compareIds={new Set(compareRepos.map(r => r.id))}
                             onForkAndCode={handleForkAndCode}
+                            onViewAnalysis={handleViewAnalysis}
                           />
                         )
                       )}
@@ -508,6 +523,7 @@ const Index = () => {
                   onCompareToggle={handleCompareToggle}
                   compareIds={new Set(compareRepos.map(r => r.id))}
                   onForkAndCode={handleForkAndCode}
+                  onViewAnalysis={handleViewAnalysis}
                 />
               ) : (
                 <RepositoryList 
@@ -518,6 +534,7 @@ const Index = () => {
                   onCompareToggle={handleCompareToggle}
                   compareIds={new Set(compareRepos.map(r => r.id))}
                   onForkAndCode={handleForkAndCode}
+                  onViewAnalysis={handleViewAnalysis}
                 />
               )}
             </div>

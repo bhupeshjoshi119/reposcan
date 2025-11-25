@@ -182,7 +182,7 @@ export const AIShowcase = ({ className, demoRepository }: AIShowcaseProps) => {
           <div className="text-center mt-8 p-6 bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg border border-primary/20">
             <h3 className="text-xl font-semibold mb-2">Ready to Experience AI-Powered Development?</h3>
             <p className="text-muted-foreground mb-4">
-              Join thousands of developers who are already coding faster and smarter with AI assistance.
+              Generate complete React applications with AI and download production-ready ZIP files with full project structure, README, and installation scripts!
             </p>
             <div className="flex items-center justify-center gap-4">
               <Button 

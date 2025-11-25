@@ -10,6 +10,7 @@ interface RepositoryListProps {
   onCompareToggle?: (repo: Repository) => void;
   compareIds?: Set<number>;
   onForkAndCode?: (repo: Repository) => void;
+  onViewAnalysis?: (repo: Repository) => void;
 }
 
 export const RepositoryList = ({ 
@@ -19,7 +20,8 @@ export const RepositoryList = ({
   onBookmarkToggle, 
   onCompareToggle,
   compareIds,
-  onForkAndCode
+  onForkAndCode,
+  onViewAnalysis
 }: RepositoryListProps) => {
   if (loading) {
     return (
@@ -48,6 +50,7 @@ export const RepositoryList = ({
           onCompareToggle={onCompareToggle ? () => onCompareToggle(repo) : undefined}
           isInComparison={compareIds?.has(repo.id)}
           onForkAndCode={onForkAndCode ? () => onForkAndCode(repo) : undefined}
+          onViewAnalysis={onViewAnalysis ? () => onViewAnalysis(repo) : undefined}
         />
       ))}
     </div>

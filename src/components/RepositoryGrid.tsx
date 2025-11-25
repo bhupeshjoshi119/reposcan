@@ -10,6 +10,7 @@ interface RepositoryGridProps {
   onCompareToggle?: (repo: Repository) => void;
   compareIds?: Set<number>;
   onForkAndCode?: (repo: Repository) => void;
+  onViewAnalysis?: (repo: Repository) => void;
 }
 
 export const RepositoryGrid = ({ 
@@ -19,7 +20,8 @@ export const RepositoryGrid = ({
   onBookmarkToggle, 
   onCompareToggle,
   compareIds,
-  onForkAndCode
+  onForkAndCode,
+  onViewAnalysis
 }: RepositoryGridProps) => {
   if (loading) {
     return (
@@ -48,6 +50,7 @@ export const RepositoryGrid = ({
           onCompareToggle={onCompareToggle ? () => onCompareToggle(repo) : undefined}
           isInComparison={compareIds?.has(repo.id)}
           onForkAndCode={onForkAndCode ? () => onForkAndCode(repo) : undefined}
+          onViewAnalysis={onViewAnalysis ? () => onViewAnalysis(repo) : undefined}
         />
       ))}
     </div>
