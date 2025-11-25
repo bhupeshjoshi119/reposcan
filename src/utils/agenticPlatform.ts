@@ -4,6 +4,23 @@
  */
 
 export const openAgenticPlatform = () => {
+  // Open the Agentic AI platform in a new window using the proper route
+  const currentOrigin = window.location.origin;
+  const agenticUrl = `${currentOrigin}/agentic-ai`;
+  
+  const newWindow = window.open(agenticUrl, '_blank', 'width=1400,height=900,scrollbars=yes,resizable=yes');
+  
+  if (newWindow) {
+    newWindow.focus();
+    return newWindow;
+  } else {
+    alert('Please allow popups to open the Agentic AI Platform!');
+    return null;
+  }
+};
+
+// Legacy function for reference (keeping the HTML content for backup)
+export const openAgenticPlatformLegacy = () => {
   // Create the HTML content for the new window
   const platformHTML = `
 <!DOCTYPE html>

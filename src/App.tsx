@@ -10,6 +10,7 @@ import Test from "./pages/Test";
 import NotFound from "./pages/NotFound";
 import IDE from "./pages/IDE";
 import { PDFReportDemo } from "./pages/PDFReportDemo";
+import AgenticAIPage from "./pages/AgenticAI";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/test" element={<Test />} />
             <Route path="/ide/:forkId" element={<IDE />} />
             <Route path="/pdf-demo" element={<PDFReportDemo />} />
+            <Route path="/agentic-ai" element={<AgenticAIPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
