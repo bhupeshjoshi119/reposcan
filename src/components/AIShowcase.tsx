@@ -14,15 +14,23 @@ import {
   TrendingUp,
   Users,
   Clock,
-  Star
+  Star,
+  FileText,
+  Rocket,
+  Download
 } from 'lucide-react';
+import { AnalysisReportDialog } from './AnalysisReportDialog';
+import openAgenticPlatform from '@/utils/agenticPlatform';
+import { Repository } from '@/pages/Index';
 
 interface AIShowcaseProps {
   className?: string;
+  demoRepository?: Repository;
 }
 
-export const AIShowcase = ({ className }: AIShowcaseProps) => {
+export const AIShowcase = ({ className, demoRepository }: AIShowcaseProps) => {
   const [activeDemo, setActiveDemo] = useState(0);
+  const [analysisDialogOpen, setAnalysisDialogOpen] = useState(false);
   const [metrics, setMetrics] = useState({
     repositoriesForked: 1247,
     aiAssistanceHours: 8934,
@@ -30,6 +38,26 @@ export const AIShowcase = ({ className }: AIShowcaseProps) => {
     bugsFixed: 456,
     performanceGains: 34,
   });
+
+  // Demo repository for analysis
+  const defaultDemoRepo: Repository = demoRepository || {
+    id: 1,
+    name: 'ai-powered-app',
+    full_name: 'techhub/ai-powered-app',
+    description: 'A cutting-edge AI-powered application showcasing modern development practices',
+    html_url: 'https://github.com/techhub/ai-powered-app',
+    stargazers_count: 2847,
+    forks_count: 456,
+    language: 'TypeScript',
+    topics: ['ai', 'machine-learning', 'react', 'typescript', 'modern-web'],
+    updated_at: new Date().toISOString(),
+    created_at: new Date(Date.now() - 365 * 24 * 60 * 60 * 1000).toISOString(),
+    owner: {
+      login: 'techhub',
+      avatar_url: 'https://github.com/techhub.png'
+    },
+    open_issues_count: 12
+  };
 
   // Simulate real-time metrics updates
   useEffect(() => {
@@ -157,18 +185,40 @@ export const AIShowcase = ({ className }: AIShowcaseProps) => {
               Join thousands of developers who are already coding faster and smarter with AI assistance.
             </p>
             <div className="flex items-center justify-center gap-4">
-              <Button className="bg-gradient-to-r from-primary to-accent hover:opacity-90">
-                <Star className="w-4 h-4 mr-2" />
-                Start Coding with AI
+              <Button 
+                className="bg-gradient-to-r from-primary to-accent hover:opacity-90 animate-pulse"
+                onClick={openAgenticPlatform}
+                size="lg"
+              >
+                <Rocket className="w-4 h-4 mr-2" />
+                🚀 Start Coding with AI
               </Button>
-              <Button variant="outline">
-                <TrendingUp className="w-4 h-4 mr-2" />
-                View Analytics
+              <Button 
+                variant="outline"
+                onClick={() => setAnalysisDialogOpen(true)}
+              >
+                <FileText className="w-4 h-4 mr-2" />
+                View Analysis Report
+              </Button>
+              <Button 
+                variant="outline"
+                onClick={openAgenticPlatform}
+                className="border-green-500 text-green-600 hover:bg-green-50"
+              >
+                <Download className="w-4 h-4 mr-2" />
+                📦 Generate & Download Code
               </Button>
             </div>
           </div>
         </CardContent>
       </Card>
+
+      {/* Analysis Report Dialog */}
+      <AnalysisReportDialog
+        repository={defaultDemoRepo}
+        open={analysisDialogOpen}
+        onOpenChange={setAnalysisDialogOpen}
+      />
     </div>
   );
 };
