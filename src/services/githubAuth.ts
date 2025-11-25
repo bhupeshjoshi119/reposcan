@@ -22,6 +22,13 @@ class GitHubAuthService {
     console.log('🚀 GitHubAuthService initialized - Build:', new Date().toISOString());
   }
 
+  // Check if we're in development bypass mode
+  private isDevelopmentBypass(): boolean {
+    const isDevelopment = import.meta.env.DEV;
+    const bypassAuth = isDevelopment && import.meta.env.VITE_BYPASS_AUTH !== 'false';
+    return bypassAuth;
+  }
+
   // Get redirect URI - always use environment variable for consistency
   private getRedirectUri(): string {
     return getRedirectUri().trim();
@@ -31,6 +38,13 @@ class GitHubAuthService {
   getAuthUrl(): string {
     const redirectUri = this.getRedirectUri();
     
+    // Debug logging to help identify the issue
+    console.log('🔍 OAuth Debug Info:');
+    console.log('  - Client ID:', this.clientId);
+    console.log('  - Redirect URI:', redirectUri);
+    console.log('  - Current hostname:', typeof window !== 'undefined' ? window.location.hostname : 'server-side');
+    console.log('  - Current URL:', typeof window !== 'undefined' ? window.location.href : 'server-side');
+    
     const params = new URLSearchParams({
       client_id: this.clientId,
       redirect_uri: redirectUri,
@@ -38,7 +52,10 @@ class GitHubAuthService {
       state: this.generateState(),
     });
 
-    return `https://github.com/login/oauth/authorize?${params.toString()}`;
+    const authUrl = `https://github.com/login/oauth/authorize?${params.toString()}`;
+    console.log('  - Full OAuth URL:', authUrl);
+
+    return authUrl;
   }
 
   // Exchange code for access token
@@ -97,6 +114,22 @@ class GitHubAuthService {
 
   // Get authenticated user info
   async getAuthenticatedUser(): Promise<GitHubUser> {
+    // Development bypass - return mock user
+    if (this.isDevelopmentBypass()) {
+      console.log('🚀 Development mode: Returning mock user');
+      return {
+        id: 12345,
+        login: 'developer',
+        name: 'Local Developer',
+        email: 'dev@localhost.com',
+        avatar_url: 'https://github.com/github.png',
+        bio: 'Local development user for testing',
+        public_repos: 42,
+        followers: 100,
+        following: 50,
+      };
+    }
+
     if (!this.octokit) {
       throw new Error('Not authenticated');
     }
@@ -113,6 +146,12 @@ class GitHubAuthService {
     per_page?: number;
     page?: number;
   } = {}) {
+    // Development bypass - return mock data
+    if (this.isDevelopmentBypass()) {
+      console.log('🚀 Development mode: Returning mock repositories');
+      return this.getMockRepositories(options);
+    }
+
     if (!this.octokit) {
       throw new Error('Not authenticated');
     }
@@ -136,6 +175,12 @@ class GitHubAuthService {
     per_page?: number;
     page?: number;
   } = {}) {
+    // Development bypass - return mock data
+    if (this.isDevelopmentBypass()) {
+      console.log(`🚀 Development mode: Returning mock repositories for org: ${org}`);
+      return this.getMockOrgRepositories(org, options);
+    }
+
     if (!this.octokit) {
       throw new Error('Not authenticated');
     }
@@ -164,6 +209,12 @@ class GitHubAuthService {
 
   // Get user's organizations
   async getUserOrganizations() {
+    // Development bypass - return mock data
+    if (this.isDevelopmentBypass()) {
+      console.log('🚀 Development mode: Returning mock organizations');
+      return this.getMockOrganizations();
+    }
+
     if (!this.octokit) {
       throw new Error('Not authenticated');
     }
@@ -574,6 +625,10 @@ jobs:
 
   // Check if user is authenticated
   isAuthenticated(): boolean {
+    // In development bypass mode, always consider authenticated
+    if (this.isDevelopmentBypass()) {
+      return true;
+    }
     return this.octokit !== null;
   }
 
@@ -587,6 +642,149 @@ jobs:
   private generateState(): string {
     return Math.random().toString(36).substring(2, 15) + 
            Math.random().toString(36).substring(2, 15);
+  }
+
+  // Mock data for development
+  private getMockRepositories(options: any = {}) {
+    const mockRepos = [
+      {
+        id: 1,
+        name: 'awesome-project',
+        full_name: 'developer/awesome-project',
+        description: 'An awesome project for testing and development',
+        html_url: 'https://github.com/developer/awesome-project',
+        stargazers_count: 42,
+        forks_count: 12,
+        language: 'TypeScript',
+        topics: ['react', 'typescript', 'vite'],
+        updated_at: new Date().toISOString(),
+        created_at: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString(),
+        owner: {
+          login: 'developer',
+          avatar_url: 'https://github.com/github.png'
+        },
+        open_issues_count: 5,
+        license: { name: 'MIT License' },
+        private: false
+      },
+      {
+        id: 2,
+        name: 'secret-project',
+        full_name: 'developer/secret-project',
+        description: 'A private repository for sensitive work',
+        html_url: 'https://github.com/developer/secret-project',
+        stargazers_count: 8,
+        forks_count: 2,
+        language: 'JavaScript',
+        topics: ['private', 'confidential'],
+        updated_at: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
+        created_at: new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString(),
+        owner: {
+          login: 'developer',
+          avatar_url: 'https://github.com/github.png'
+        },
+        open_issues_count: 2,
+        license: null,
+        private: true
+      },
+      {
+        id: 3,
+        name: 'open-source-lib',
+        full_name: 'developer/open-source-lib',
+        description: 'A useful open source library',
+        html_url: 'https://github.com/developer/open-source-lib',
+        stargazers_count: 156,
+        forks_count: 34,
+        language: 'Python',
+        topics: ['python', 'library', 'open-source'],
+        updated_at: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
+        created_at: new Date(Date.now() - 120 * 24 * 60 * 60 * 1000).toISOString(),
+        owner: {
+          login: 'developer',
+          avatar_url: 'https://github.com/github.png'
+        },
+        open_issues_count: 12,
+        license: { name: 'Apache License 2.0' },
+        private: false
+      }
+    ];
+
+    // Filter by visibility if specified
+    if (options.visibility === 'public') {
+      return mockRepos.filter(repo => !repo.private);
+    } else if (options.visibility === 'private') {
+      return mockRepos.filter(repo => repo.private);
+    }
+
+    return mockRepos;
+  }
+
+  private getMockOrganizations() {
+    return [
+      {
+        id: 1,
+        login: 'awesome-org',
+        avatar_url: 'https://github.com/github.png',
+        description: 'An awesome organization for development'
+      },
+      {
+        id: 2,
+        login: 'tech-company',
+        avatar_url: 'https://github.com/github.png',
+        description: 'A technology company organization'
+      }
+    ];
+  }
+
+  private getMockOrgRepositories(org: string, options: any = {}) {
+    const orgRepos = {
+      'awesome-org': [
+        {
+          id: 101,
+          name: 'org-project-1',
+          full_name: 'awesome-org/org-project-1',
+          description: 'First organization project',
+          html_url: 'https://github.com/awesome-org/org-project-1',
+          stargazers_count: 89,
+          forks_count: 23,
+          language: 'React',
+          topics: ['react', 'organization'],
+          updated_at: new Date().toISOString(),
+          created_at: new Date(Date.now() - 45 * 24 * 60 * 60 * 1000).toISOString(),
+          owner: {
+            login: 'awesome-org',
+            avatar_url: 'https://github.com/github.png'
+          },
+          open_issues_count: 8,
+          license: { name: 'MIT License' },
+          private: false
+        }
+      ],
+      'tech-company': [
+        {
+          id: 201,
+          name: 'company-app',
+          full_name: 'tech-company/company-app',
+          description: 'Main company application',
+          html_url: 'https://github.com/tech-company/company-app',
+          stargazers_count: 234,
+          forks_count: 67,
+          language: 'TypeScript',
+          topics: ['typescript', 'enterprise'],
+          updated_at: new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString(),
+          created_at: new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString(),
+          owner: {
+            login: 'tech-company',
+            avatar_url: 'https://github.com/github.png'
+          },
+          open_issues_count: 15,
+          license: { name: 'Proprietary' },
+          private: true
+        }
+      ]
+    };
+
+    return orgRepos[org] || [];
   }
 }
 

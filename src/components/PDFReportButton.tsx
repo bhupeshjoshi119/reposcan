@@ -106,13 +106,13 @@ export const PDFReportButton: React.FC<PDFReportButtonProps> = ({
           PDF Report
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="sm:max-w-md" aria-describedby="pdf-report-description">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <FileText className="h-5 w-5" />
             Generate Beautiful PDF Report
           </DialogTitle>
-          <DialogDescription>
+          <DialogDescription id="pdf-report-description">
             Create a comprehensive, professionally formatted PDF report analyzing issues for <strong>{repositoryName}</strong>
           </DialogDescription>
         </DialogHeader>

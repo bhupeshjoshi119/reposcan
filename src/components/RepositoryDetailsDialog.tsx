@@ -45,7 +45,7 @@ export const RepositoryDetailsDialog = ({
 
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="max-w-4xl max-h-[90vh] flex flex-col p-0">
+      <DialogContent className="max-w-4xl max-h-[90vh] flex flex-col p-0" aria-describedby="repository-details-description">
         <div className="p-6 pb-4 border-b border-border">
           <DialogHeader>
             <DialogTitle className="flex items-center gap-2 text-xl">
@@ -61,7 +61,7 @@ export const RepositoryDetailsDialog = ({
                 </a>
               </Button>
             </DialogTitle>
-            <DialogDescription>
+            <DialogDescription id="repository-details-description">
               Repository details and development actions
             </DialogDescription>
           </DialogHeader>

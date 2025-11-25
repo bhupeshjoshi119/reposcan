@@ -60,13 +60,13 @@ export const AdvancedSearchDialog = ({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-3xl max-h-[90vh]">
+      <DialogContent className="max-w-3xl max-h-[90vh]" aria-describedby="advanced-search-description">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Zap className="w-5 h-5 text-primary" />
             Advanced Repository Search
           </DialogTitle>
-          <DialogDescription>
+          <DialogDescription id="advanced-search-description">
             Use natural language or GitHub search syntax to find repositories
           </DialogDescription>
         </DialogHeader>
